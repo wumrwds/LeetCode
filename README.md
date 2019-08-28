@@ -19,11 +19,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Binary Tree
 
-| #    | Title | Difficulty | Comment |
-| ---- | ----- | ---------- | ------- |
-|      |       |            |         |
-|      |       |            |         |
-|      |       |            |         |
+| #            | Title                        | Difficulty | Comment |
+| ------------ | ---------------------------- | ---------- | ------- |
+| LeetCode 104 | Minimum Depth of Binary Tree | Easy       |         |
+|              |                              |            |         |
+|              |                              |            |         |
 
 <br/>
 
