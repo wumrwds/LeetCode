@@ -22,7 +22,7 @@ A personal LeetCode/LintCode Java solution set.
 | #            | Title                        | Difficulty | Comment |
 | ------------ | ---------------------------- | ---------- | ------- |
 | LeetCode 104 | Minimum Depth of Binary Tree | Easy       |         |
-|              |                              |            |         |
+| LeetCode 257 | Binary Tree Paths            | Easy       |         |
 |              |                              |            |         |
 
 <br/>
