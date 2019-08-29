@@ -19,11 +19,12 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Binary Tree
 
-| #            | Title                        | Difficulty | Comment                                                   |
-| ------------ | ---------------------------- | ---------- | --------------------------------------------------------- |
-| LeetCode 104 | Minimum Depth of Binary Tree | Easy       |                                                           |
-| LeetCode 257 | Binary Tree Paths            | Easy       |                                                           |
-| LeetCode 110 | Balanced Binary Tree         | Easy       | Use custom class ResultType to return more than one value |
+| #            | Title                                   | Difficulty | Comment                                                      |
+| ------------ | --------------------------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 104 | Minimum Depth of Binary Tree            | Easy       |                                                              |
+| LeetCode 257 | Binary Tree Paths                       | Easy       |                                                              |
+| LeetCode 110 | Balanced Binary Tree                    | Easy       | Use custom class ResultType to return more than one value    |
+| LeetCode 236 | Lowest Common Ancestor of a Binary Tree | Medium     | Two cases: one side each or both in a side; preorder traversal |
 
 <br/>
 
