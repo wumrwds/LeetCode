@@ -48,6 +48,16 @@ A personal LeetCode/LintCode Java solution set.
 
 <br/>
 
+## Topological Sorting
+
+| #            | Title           | Difficulty | Comment                               |
+| ------------ | --------------- | ---------- | ------------------------------------- |
+| LeetCode 207 | Course Schedule | Medium     | Build graph and then topological sort |
+|              |                 |            |                                       |
+|              |                 |            |                                       |
+
+<br/>
+
 ## DFS
 
 | #    | Title | Difficulty | Comment |
