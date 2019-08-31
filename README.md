@@ -44,17 +44,17 @@ A personal LeetCode/LintCode Java solution set.
 | ------------- | ------------------------------------- | ---------- | ------------------------------------------------------------ |
 | LeetCode 297  | Serialize and Deserialize Binary Tree | Hard       | serialize: BFS, then trim null elements in the tail; deserialize: iterate array and add current node to its position; use a queue to record current node which is being added; use a flag to mark left or right, each time meeting a left node means that it requires to get next node to be added |
 | LeetCode  133 | Clone Graph                           | Medium     | 3 steps: collect all old nodes in a list; create new nodes and keep it in a pair with old nodes in a map; copy edges |
-|               |                                       |            |                                                              |
+| LeetCode 200  | Number of Islands                     | Medium     | Count connected blocks. Use direction array and bfs to traverse all nodes in the chessboard. Required a private custom class `Point` for queue and a boolean array for marking whether a point has been visited. |
 
 <br/>
 
 ## Topological Sorting
 
-| #            | Title           | Difficulty | Comment                               |
-| ------------ | --------------- | ---------- | ------------------------------------- |
-| LeetCode 207 | Course Schedule | Medium     | Build graph and then topological sort |
-|              |                 |            |                                       |
-|              |                 |            |                                       |
+| #            | Title              | Difficulty | Comment                                                      |
+| ------------ | ------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 207 | Course Schedule    | Medium     | Build graph and then topological sort                        |
+| LeetCode 210 | Course Schedule II | Medium     | Refer to 207. This question requires to return a possible solution. |
+|              |                    |            |                                                              |
 
 <br/>
 
