@@ -30,11 +30,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Divide & Conquer
 
-| #    | Title | Difficulty | Comment |
-| ---- | ----- | ---------- | ------- |
-|      |       |            |         |
-|      |       |            |         |
-|      |       |            |         |
+| #            | Title                                                      | Difficulty | Comment                                                      |
+| ------------ | ---------------------------------------------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 106 | Construct Binary Tree from Inorder and Postorder Traversal | Medium     | The last node of preorder array is the current root. Then find its position in inorder array and split each array into two subtree part (both required a start and end boundary). Do it using divide&conquer recursively. |
+|              |                                                            |            |                                                              |
+|              |                                                            |            |                                                              |
 
 <br/>
 
@@ -65,6 +65,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 39  | Combination Sum     | Medium     |                                                              |
 | LeetCode 40  | Combination Sum II  | Medium     | Don't allow more than one same elements to be added into combination in a single for loop while writing the DFS helper function. |
 | LeetCode 216 | Combination Sum III | Medium     | Brute force approach is okay. Time complexity is O(C(9, k)) => O(9^k). Iterating from bigger end can quit the for loop early and avoid unnecessary work. |
+|              |                     |            |                                                              |
 
 <br/>
 
