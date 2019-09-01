@@ -60,11 +60,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## DFS
 
-| #    | Title | Difficulty | Comment |
-| ---- | ----- | ---------- | ------- |
-|      |       |            |         |
-|      |       |            |         |
-|      |       |            |         |
+| #           | Title           | Difficulty | Comment |
+| ----------- | --------------- | ---------- | ------- |
+| LeetCode 39 | Combination Sum | Medium     |         |
+|             |                 |            |         |
+|             |                 |            |         |
 
 <br/>
 
