@@ -60,11 +60,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## DFS
 
-| #           | Title           | Difficulty | Comment |
-| ----------- | --------------- | ---------- | ------- |
-| LeetCode 39 | Combination Sum | Medium     |         |
-|             |                 |            |         |
-|             |                 |            |         |
+| #           | Title              | Difficulty | Comment                                                      |
+| ----------- | ------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 39 | Combination Sum    | Medium     |                                                              |
+| LeetCode 40 | Combination Sum II | Medium     | Don't allow more than one same elements to be added into combination in a single for loop while writing the DFS helper function. |
+|             |                    |            |                                                              |
 
 <br/>
 
