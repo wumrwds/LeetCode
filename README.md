@@ -102,10 +102,10 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Dynamic Programming
 
-| #    | Title | Difficulty | Comment |
-| ---- | ----- | ---------- | ------- |
-|      |       |            |         |
-|      |       |            |         |
-|      |       |            |         |
+| #            | Title          | Difficulty | Comment                                                      |
+| ------------ | -------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 312 | Burst Balloons | Hard       | 1. Denote dp\[i]\[j] as the maximum gain for bursting the balloons from i to j; 2. Get recursive equation; 3. Iterate from length 0 |
+|              |                |            |                                                              |
+|              |                |            |                                                              |
 
 <br/>
