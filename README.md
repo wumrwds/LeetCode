@@ -6,14 +6,15 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Binary Search
 
-| #            | Title                                     | Difficulty | Comment                            |
-| ------------ | ----------------------------------------- | ---------- | ---------------------------------- |
-| LeetCode 33  | Search in Rotated Sorted Array            | Medium     |                                    |
-| LeetCode 81  | Search in Rotated Sorted Array II         | Medium     |                                    |
-| LeetCode 302 | Smallest Rectangle Enclosing Black Pixels | Hard       | Do binary search in all directions |
-| LeetCode 162 | Find Peak Element                         | Medium     |                                    |
-| LeetCode 153 | Find Minimum in Rotated Sorted Array      | Medium     |                                    |
-| LeetCode 154 | Find Minimum in Rotated Sorted Array II   | Hard       |                                    |
+| #            | Title                                     | Difficulty | Comment                                                      |
+| ------------ | ----------------------------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 33  | Search in Rotated Sorted Array            | Medium     |                                                              |
+| LeetCode 81  | Search in Rotated Sorted Array II         | Medium     |                                                              |
+| LeetCode 240 | Search a 2D Matrix II                     | Medium     | See the L-shaped array as a sorted array; iterate from the left bottom conner, each loop drop a half |
+| LeetCode 302 | Smallest Rectangle Enclosing Black Pixels | Hard       | Do binary search in all directions                           |
+| LeetCode 162 | Find Peak Element                         | Medium     |                                                              |
+| LeetCode 153 | Find Minimum in Rotated Sorted Array      | Medium     |                                                              |
+| LeetCode 154 | Find Minimum in Rotated Sorted Array II   | Hard       |                                                              |
 
 <br/>
 
