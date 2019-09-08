@@ -106,7 +106,7 @@ A personal LeetCode/LintCode Java solution set.
 | #            | Title          | Difficulty | Comment                                                      |
 | ------------ | -------------- | ---------- | ------------------------------------------------------------ |
 | LeetCode 312 | Burst Balloons | Hard       | 1. Denote dp\[i]\[j] as the maximum gain for bursting the balloons from i to j; 2. Get recursive equation; 3. Iterate from length 0 |
-|              |                |            |                                                              |
+| LintCode 92  | Backpack       | Medium     | Classical knapsack problem; denote dp\[i]\[j] as the max weight for the first i items with backpack of j size; So for the i th item, it will have two cases: in or out; dp\[i]\[j] = max(dp\[i-1]\[j], dp\[i-1]\[j-A\[i]] + A\[i]); **space complexity can be O(V)** |
 |              |                |            |                                                              |
 
 <br/>
