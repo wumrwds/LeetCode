@@ -67,17 +67,17 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 39  | Combination Sum     | Medium     |                                                              |
 | LeetCode 40  | Combination Sum II  | Medium     | Don't allow more than one same elements to be added into combination in a single for loop while writing the DFS helper function. |
 | LeetCode 216 | Combination Sum III | Medium     | Brute force approach is okay. Time complexity is O(C(9, k)) => O(9^k). Iterating from bigger end can quit the for loop early and avoid unnecessary work. |
-|              |                     |            |                                                              |
+| LeetCode 494 | Target Sum          | Medium     | Also see DP #3                                               |
 
 <br/>
 
 ## Linked List
 
-| #    | Title | Difficulty | Comment |
-| ---- | ----- | ---------- | ------- |
-|      |       |            |         |
-|      |       |            |         |
-|      |       |            |         |
+| #            | Title                            | Difficulty | Comment                                                      |
+| ------------ | -------------------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 160 | Intersection of Two Linked Lists | Easy       | Let the tail of List A point to the head of List B; if there's a circle, it means have intersection; otherwise, it has no intersection |
+|              |                                  |            |                                                              |
+|              |                                  |            |                                                              |
 
 <br/>
 
@@ -107,6 +107,6 @@ A personal LeetCode/LintCode Java solution set.
 | ------------ | -------------- | ---------- | ------------------------------------------------------------ |
 | LeetCode 312 | Burst Balloons | Hard       | 1. Denote dp\[i]\[j] as the maximum gain for bursting the balloons from i to j; 2. Get recursive equation; 3. Iterate from length 0 |
 | LintCode 92  | Backpack       | Medium     | Classical knapsack problem; denote dp\[i]\[j] as the max weight for the first i items with backpack of j size; So for the i th item, it will have two cases: in or out; dp\[i]\[j] = max(dp\[i-1]\[j], dp\[i-1]\[j-A\[i]] + A\[i]); **space complexity can be O(V)** |
-|              |                |            |                                                              |
+| LeetCode 494 | Target Sum     | Medium     | DFS or DP; just see as a knapsack problem; test cases should include `[0,0,0,0,1], 1`; map index [-sum, sum] to [0, 2*sum]; when initializing, `++` the dp\[0]\[-num\[i]] instead of assigning 1 |
 
 <br/>
