@@ -27,6 +27,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 110 | Balanced Binary Tree                    | Easy       | Use custom class ResultType to return more than one value    |
 | LeetCode 236 | Lowest Common Ancestor of a Binary Tree | Medium     | Two cases: one side each or both in a side; preorder traversal |
 | LeetCode 543 | Diameter of Binary Tree                 | Easy       | Helper function used to calculate the tree depth; in the process of calculating tree depth, update max diameter |
+| LeetCode 617 | Merge Two Binary Trees                  | Easy       | Manipulate two trees at the same time using preorder traversal in a single method |
 
 <br/>
 
