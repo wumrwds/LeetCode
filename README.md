@@ -102,6 +102,16 @@ A personal LeetCode/LintCode Java solution set.
 
 <br/>
 
+## Bit Manipulation
+
+| #            | Title         | Difficulty | Comment                                                      |
+| ------------ | ------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 338 | Counting Bits | Medium     | Divide the number into 2 parts: 1⃣️ the last digit = i % 2; 2⃣️ the other digits = dp[i/2];  i/2 = i >> 1, i%2 = (i & 1) |
+|              |               |            |                                                              |
+|              |               |            |                                                              |
+
+<br/>
+
 ## Dynamic Programming
 
 | #            | Title          | Difficulty | Comment                                                      |
