@@ -112,6 +112,16 @@ A personal LeetCode/LintCode Java solution set.
 
 <br/>
 
+## Greedy
+
+| #            | Title                          | Difficulty | Comment                                                      |
+| ------------ | ------------------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 406 | Queue Reconstruction by Height | Medium     | Descending sort array by height; for people having same height, ascending sort by index; Then, insert the elements of the sorted array; in each iteration, the current element must be the smallest element due to descending sorting, so just call the method `add(p[i], p)` of LinkedList |
+|              |                                |            |                                                              |
+|              |                                |            |                                                              |
+
+<br/>
+
 ## Dynamic Programming
 
 | #            | Title          | Difficulty | Comment                                                      |
