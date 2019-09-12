@@ -92,6 +92,16 @@ A personal LeetCode/LintCode Java solution set.
 
 <br/>
 
+## Heap
+
+| #            | Title                   | Difficulty | Comment                                                      |
+| ------------ | ----------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 347 | Top K Frequent Elements | Medium     | 1. Count occurrences of all elements; 2. Use a min heap with k capacity to filter top k frequent elements; Note that the constructor parameter of PriorityQueue is only the **initial capacity** |
+|              |                         |            |                                                              |
+|              |                         |            |                                                              |
+
+<br/>
+
 ## Two Pointers
 
 | #    | Title | Difficulty | Comment |
