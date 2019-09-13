@@ -84,11 +84,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Array
 
-| #    | Title | Difficulty | Comment |
-| ---- | ----- | ---------- | ------- |
-|      |       |            |         |
-|      |       |            |         |
-|      |       |            |         |
+| #            | Title                | Difficulty | Comment                                                      |
+| ------------ | -------------------- | ---------- | ------------------------------------------------------------ |
+| LintCode 139 | Subarray Sum Closest | Medium     | subarray_sum(i, j) = prefix[j+1] - prefix[i]; find the least difference of two elements in the prefix array |
+|              |                      |            |                                                              |
+|              |                      |            |                                                              |
 
 <br/>
 
