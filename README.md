@@ -104,11 +104,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Two Pointers
 
-| #    | Title | Difficulty | Comment |
-| ---- | ----- | ---------- | ------- |
-|      |       |            |         |
-|      |       |            |         |
-|      |       |            |         |
+| #           | Title                              | Difficulty | Comment                                                      |
+| ----------- | ---------------------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 83 | Remove Duplicates from Sorted List | Easy       | A pointer points to the tail of non-duplicate elements; the other pointer points to the current iteration index; Remeber to cut the tail in the end |
+|             |                                    |            |                                                              |
+|             |                                    |            |                                                              |
 
 <br/>
 
