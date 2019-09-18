@@ -111,6 +111,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode  15  | 3Sum                               | Medium     | a+b = -c, then use twoSum(); Or fix one element, then use two pointers to iterate the other two elements |
 | LintCode 31   | Partition Array                    | Medium     | Similar to the Partition process of Quicksort: Use two pointers; when `left` and `right` both point to an element which don't belong to its partition, swap. |
 | LeetCode  215 | Kth Largest Element in an Array    | Medium     | Use the Partition process of Quicksort to determine the i-th element, then drop a half, search for the Kth element in the left half recursively. |
+| LeetCode 560  | Subarray Sum Equals K              | Medium     | Use prefixSum array to present the sum of subarray: s[j] - s[i] = k; then the question is converted to `2sum`; Note that nums[i] might be negative |
 
 <br/>
 
