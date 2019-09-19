@@ -125,6 +125,16 @@ A personal LeetCode/LintCode Java solution set.
 
 <br/>
 
+## Sort
+
+| #            | Title                      | Difficulty | Comment                                                      |
+| ------------ | -------------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 973 | K Closest Points to Origin | Medium     | Use the main idea of PARTITION in Quicksort to **sort the first k-th smallest elements**; it takes O(n) time. |
+|              |                            |            |                                                              |
+|              |                            |            |                                                              |
+
+<br/>
+
 ## Greedy
 
 | #            | Title                          | Difficulty | Comment                                                      |
