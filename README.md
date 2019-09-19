@@ -84,11 +84,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Array
 
-| #            | Title                | Difficulty | Comment                                                      |
-| ------------ | -------------------- | ---------- | ------------------------------------------------------------ |
-| LintCode 139 | Subarray Sum Closest | Medium     | subarray_sum(i, j) = prefix[j+1] - prefix[i]; find the least difference of two elements in the prefix array |
-| LeetCode 42  | Trapping Rain Water  | Hard       | For each element of the array, the water it contains is equal to $min(LeftMaxBar, RightMaxBar) - height(i))$; to speed up the process of finding leftMax & rightMax, we can store the result in the initialization stage by iterating the array from two ends twice. |
-|              |                      |            |                                                              |
+| #            | Title                        | Difficulty | Comment                                                      |
+| ------------ | ---------------------------- | ---------- | ------------------------------------------------------------ |
+| LintCode 139 | Subarray Sum Closest         | Medium     | subarray_sum(i, j) = prefix[j+1] - prefix[i]; find the least difference of two elements in the prefix array |
+| LeetCode 42  | Trapping Rain Water          | Hard       | For each element of the array, the water it contains is equal to $min(LeftMaxBar, RightMaxBar) - height(i))$; to speed up the process of finding leftMax & rightMax, we can store the result in the initialization stage by iterating the array from two ends twice. |
+| LeetCode 238 | Product of Array Except Self | Medium     | Use a prefixProduct array and a suffixProduct array (rather than product\[i][j], product\[i][j] would take $O(n^2)$ time); Followup: To limit space complexity to $O(1)$, |
 
 <br/>
 
