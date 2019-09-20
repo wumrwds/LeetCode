@@ -132,7 +132,7 @@ A personal LeetCode/LintCode Java solution set.
 | #            | Title                      | Difficulty | Comment                                                      |
 | ------------ | -------------------------- | ---------- | ------------------------------------------------------------ |
 | LeetCode 973 | K Closest Points to Origin | Medium     | Use the main idea of PARTITION in Quicksort to **sort the first k-th smallest elements**; it takes O(n) time. |
-|              |                            |            |                                                              |
+| LeetCode 252 | Meeting Rooms              | Easy       | Sort by the left/right end of the interval, then compare the right/left end of the intervals. Followup: **LeetCode 253** |
 |              |                            |            |                                                              |
 
 <br/>
