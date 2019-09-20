@@ -113,6 +113,7 @@ A personal LeetCode/LintCode Java solution set.
 | LintCode 31   | Partition Array                    | Medium     | Similar to the Partition process of Quicksort: Use two pointers; when `left` and `right` both point to an element which don't belong to its partition, swap. |
 | LeetCode  215 | Kth Largest Element in an Array    | Medium     | Use the Partition process of Quicksort to determine the i-th element, then drop a half, search for the Kth element in the left half recursively. |
 | LeetCode 560  | Subarray Sum Equals K              | Medium     | Use prefixSum array to present the sum of subarray: s[j] - s[i] = k; then the question is converted to `2sum`; Note that nums[i] might be negative |
+| LeetCode 76   | Minimum Window Substring           | Hard       | **Sliding window**: 1. Use two pointers: start and end to represent a window; 2. Move end to find a valid window; 3. When a valid window is found, move start to find a smaller window. |
 
 <br/>
 
