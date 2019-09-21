@@ -147,6 +147,16 @@ A personal LeetCode/LintCode Java solution set.
 
 <br/>
 
+## Hash Table
+
+| #             | Title                         | Difficulty | Comment                                                      |
+| ------------- | ----------------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode  953 | Verifying an Alien Dictionary | Easy       | We can compare the first difference of two adjacency words in the List. For example, `"applying"` and `"apples"` have a first difference of `y` vs `e`. Then check wheter the character in first word is before that in the second word. Pay attention to this special case: `apple <-> app`. |
+|               |                               |            |                                                              |
+|               |                               |            |                                                              |
+
+<br/>
+
 ## Dynamic Programming
 
 | #            | Title          | Difficulty | Comment                                                      |
