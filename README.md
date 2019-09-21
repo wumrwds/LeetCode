@@ -57,7 +57,7 @@ A personal LeetCode/LintCode Java solution set.
 | ------------ | ------------------ | ---------- | ------------------------------------------------------------ |
 | LeetCode 207 | Course Schedule    | Medium     | Build graph and then topological sort                        |
 | LeetCode 210 | Course Schedule II | Medium     | Refer to 207. This question requires to return a possible solution. |
-|              |                    |            |                                                              |
+| LeetCode 269 | Alien Dictionary   | Hard       | Extend to **210 Course Schedule II**. The question changes the way it gives the graph. We need to determine the `from -> to` pair by comparing words[i] and words[i+1]; For the first time we find a character in these two strings has a different letter in the same index, it's just the `from -> to` pair. Then build graph and do topological sorting. |
 
 <br/>
 
