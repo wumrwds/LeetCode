@@ -51,13 +51,13 @@ A personal LeetCode/LintCode Java solution set.
 
 <br/>
 
-## Connected Components
+## Connected Components/ Union-Find
 
-| #            | Title                                                 | Difficulty | Comment                                                      |
-| ------------ | ----------------------------------------------------- | ---------- | ------------------------------------------------------------ |
-| LeetCode 323 | Number of Connected Components in an Undirected Graph | Medium     | BFS or DFS; use a boolean[] to record the isVisited state of each node |
-| LeetCode 200 | Number of Islands                                     | Medium     | Count connected blocks. Use direction array and bfs to traverse all nodes in the chessboard. Required a private custom class `Point` for queue and a boolean array for marking whether a point has been visited. |
-|              |                                                       |            |                                                              |
+| #             | Title                                                        | Difficulty | Comment                                                      |
+| ------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 323  | Number of Connected Components in an Undirected Graph        | Medium     | BFS or DFS; use a boolean[] to record the isVisited state of each node |
+| LeetCode 200  | Number of Islands                                            | Medium     | Count connected blocks. Use direction array and bfs to traverse all nodes in the chessboard. Required a private custom class `Point` for queue and a boolean array for marking whether a point has been visited. |
+| LeetCode 1202 | [Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps) | Medium     | Use Disjoint Set Algorithm (CLRS Chapter # 21) to get connected components. Then sort each group and generate the new string. |
 
 <br/>
 
