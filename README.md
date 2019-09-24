@@ -20,14 +20,15 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Binary Tree
 
-| #            | Title                                   | Difficulty | Comment                                                      |
-| ------------ | --------------------------------------- | ---------- | ------------------------------------------------------------ |
-| LeetCode 104 | Minimum Depth of Binary Tree            | Easy       |                                                              |
-| LeetCode 257 | Binary Tree Paths                       | Easy       |                                                              |
-| LeetCode 110 | Balanced Binary Tree                    | Easy       | Use custom class ResultType to return more than one value    |
-| LeetCode 236 | Lowest Common Ancestor of a Binary Tree | Medium     | Two cases: one side each or both in a side; preorder traversal |
-| LeetCode 543 | Diameter of Binary Tree                 | Easy       | Helper function used to calculate the tree depth; in the process of calculating tree depth, update max diameter |
-| LeetCode 617 | Merge Two Binary Trees                  | Easy       | Manipulate two trees at the same time using preorder traversal in a single method |
+| #            | Title                                                        | Difficulty | Comment                                                      |
+| ------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 104 | Minimum Depth of Binary Tree                                 | Easy       |                                                              |
+| LeetCode 257 | Binary Tree Paths                                            | Easy       |                                                              |
+| LeetCode 110 | Balanced Binary Tree                                         | Easy       | Use custom class ResultType to return more than one value    |
+| LeetCode 236 | Lowest Common Ancestor of a Binary Tree                      | Medium     | Two cases: one side each or both in a side; preorder traversal |
+| LeetCode 543 | Diameter of Binary Tree                                      | Easy       | Helper function used to calculate the tree depth; in the process of calculating tree depth, update max diameter |
+| LeetCode 617 | Merge Two Binary Trees                                       | Easy       | Manipulate two trees at the same time using preorder traversal in a single method |
+| LeetCode 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) | Medium     | BFS or Divide & Conquer; BFS: while meeting a null element, break while loop, and check whether there's any non-null nodes remaining in the queue. (after break, we need to iterate the remained elements in the queue) |
 
 <br/>
 
