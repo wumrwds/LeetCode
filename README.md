@@ -126,15 +126,16 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Two Pointers
 
-| #             | Title                              | Difficulty | Comment                                                      |
-| ------------- | ---------------------------------- | ---------- | ------------------------------------------------------------ |
-| LeetCode 83   | Remove Duplicates from Sorted List | Easy       | A pointer points to the tail of non-duplicate elements; the other pointer points to the current iteration index; Remeber to cut the tail in the end |
-| LintCode 607  | Two Sum - Data structure design    | Medium     | Use a hashmap to store the <val, cnt> pair and a list to store the distinct internal values; for find(int value) - take care of the case `k + k = value`. In this case, you need to check the count of k |
-| LeetCode  15  | 3Sum                               | Medium     | a+b = -c, then use twoSum(); Or fix one element, then use two pointers to iterate the other two elements |
-| LintCode 31   | Partition Array                    | Medium     | Similar to the Partition process of Quicksort: Use two pointers; when `left` and `right` both point to an element which don't belong to its partition, swap. |
-| LeetCode  215 | Kth Largest Element in an Array    | Medium     | Use the Partition process of Quicksort to determine the i-th element, then drop a half, search for the Kth element in the left half recursively. |
-| LeetCode 560  | Subarray Sum Equals K              | Medium     | Use prefixSum array to present the sum of subarray: s[j] - s[i] = k; then the question is converted to `2sum`; Note that nums[i] might be negative |
-| LeetCode 76   | Minimum Window Substring           | Hard       | **Sliding window**: 1. Use two pointers: start and end to represent a window; 2. Move end to find a valid window; 3. When a valid window is found, move start to find a smaller window. |
+| #             | Title                                                        | Difficulty | Comment                                                      |
+| ------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 83   | Remove Duplicates from Sorted List                           | Easy       | A pointer points to the tail of non-duplicate elements; the other pointer points to the current iteration index; Remeber to cut the tail in the end |
+| LintCode 607  | Two Sum - Data structure design                              | Medium     | Use a hashmap to store the <val, cnt> pair and a list to store the distinct internal values; for find(int value) - take care of the case `k + k = value`. In this case, you need to check the count of k |
+| LeetCode  15  | 3Sum                                                         | Medium     | a+b = -c, then use twoSum(); Or fix one element, then use two pointers to iterate the other two elements |
+| LintCode 31   | Partition Array                                              | Medium     | Similar to the Partition process of Quicksort: Use two pointers; when `left` and `right` both point to an element which don't belong to its partition, swap. |
+| LeetCode  215 | Kth Largest Element in an Array                              | Medium     | Use the Partition process of Quicksort to determine the i-th element, then drop a half, search for the Kth element in the left half recursively. |
+| LeetCode 560  | Subarray Sum Equals K                                        | Medium     | Use prefixSum array to present the sum of subarray: s[j] - s[i] = k; then the question is converted to `2sum`; Note that nums[i] might be negative |
+| LeetCode 76   | Minimum Window Substring                                     | Hard       | **Sliding window**: 1. Use two pointers: start and end to represent a window; 2. Move end to find a valid window; 3. When a valid window is found, move start to find a smaller window. |
+| LeetCode 680  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii) | Easy       | To skip the useless character, we can't easily skip it by judge `s[p+1] == s[q] or s[p] == s[q-1]`. Instead, we need to check the inner substring using the original validPalindrome function. |
 
 <br/>
 
