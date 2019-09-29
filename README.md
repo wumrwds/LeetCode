@@ -142,11 +142,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Sliding Window
 
-| #           | Title                    | Difficulty | Comment                                                      |
-| ----------- | ------------------------ | ---------- | ------------------------------------------------------------ |
-| LeetCode 76 | Minimum Window Substring | Hard       | **Sliding window**: 1. Use two pointers: start and end to represent a window; 2. Move end to find a valid window; 3. When a valid window is found, move start to find a smaller window. |
-|             |                          |            |                                                              |
-|             |                          |            |                                                              |
+| #            | Title                                                        | Difficulty | Comment                                                      |
+| ------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 76  | Minimum Window Substring                                     | Hard       | **Sliding window**: 1. Use two pointers: start and end to represent a window; 2. Move end to find a valid window; 3. When a valid window is found, move start to find a smaller window. |
+| LeetCode 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) | Hard       | Use a Deque to store the index of elements in sliding window; the elements in Deque is descend, so the maximum occurs in the head, minimum occurs in the end; in each round of loop, we only keep the "promising" elements in the Deque |
+|              |                                                              |            |                                                              |
 
 <br/>
 
