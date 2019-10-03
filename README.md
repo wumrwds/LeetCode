@@ -199,3 +199,14 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 494 | Target Sum     | Medium     | DFS or DP; just see as a knapsack problem; test cases should include `[0,0,0,0,1], 1`; map index [-sum, sum] to [0, 2*sum]; when initializing, `++` the dp\[0]\[-num\[i]] instead of assigning 1 |
 
 <br/>
+
+## Trie
+
+| #    | Title                                                        | Difficulty | Comment                            |
+| ---- | ------------------------------------------------------------ | ---------- | ---------------------------------- |
+| 208  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | Medium     | TrieNode(links[R], R = 26, isEnd). |
+|      |                                                              |            |                                    |
+|      |                                                              |            |                                    |
+
+<br/>
+
