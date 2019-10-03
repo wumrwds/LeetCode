@@ -202,11 +202,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Trie
 
-| #    | Title                                                        | Difficulty | Comment                            |
-| ---- | ------------------------------------------------------------ | ---------- | ---------------------------------- |
-| 208  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | Medium     | TrieNode(links[R], R = 26, isEnd). |
-|      |                                                              |            |                                    |
-|      |                                                              |            |                                    |
+| #             | Title                                                        | Difficulty | Comment                                                      |
+| ------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 208  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | Medium     | TrieNode(links[R], R = 26, isEnd).                           |
+| LeetCode  642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system) | Hard       | Record the words and its times in each node. Then use a max heap to return top 3. |
+|               |                                                              |            |                                                              |
 
 <br/>
 
