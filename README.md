@@ -15,7 +15,8 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 162 | Find Peak Element                                            | Medium     |                                                              |
 | LeetCode 153 | Find Minimum in Rotated Sorted Array                         | Medium     |                                                              |
 | LeetCode 154 | Find Minimum in Rotated Sorted Array II                      | Hard       |                                                              |
-| 34           | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | Medium     | Use two BinarySearch to find first and last indices.         |
+| LeetCode 34  | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | Medium     | Use two BinarySearch to find first and last indices.         |
+| LeetCode 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | Medium     | Use binary search to drop a half elements in each iteration. Note that the premise that this question can use binary search is based on two conditions: one is `nums[-1] = nums[n] = -∞`, another is that we only need to return one peak index. |
 
 <br/>
 
