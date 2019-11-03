@@ -127,6 +127,16 @@ A personal LeetCode/LintCode Java solution set.
 
 <br/>
 
+## Stack
+
+| #             | Title                                    | Difficulty | Comment                                                      |
+| ------------- | ---------------------------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 1249 | Minimum Remove to Make Valid Parentheses | Medium     | Use a stack to keep the indices of the characters required to be removed. Then, remove them togeter. |
+|               |                                          |            |                                                              |
+|               |                                          |            |                                                              |
+
+<br/>
+
 ## Two Pointers
 
 | #             | Title                                                        | Difficulty | Comment                                                      |
