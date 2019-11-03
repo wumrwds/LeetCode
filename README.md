@@ -132,7 +132,7 @@ A personal LeetCode/LintCode Java solution set.
 | #             | Title                                    | Difficulty | Comment                                                      |
 | ------------- | ---------------------------------------- | ---------- | ------------------------------------------------------------ |
 | LeetCode 1249 | Minimum Remove to Make Valid Parentheses | Medium     | Use a stack to keep the indices of the characters required to be removed. Then, remove them togeter. |
-|               |                                          |            |                                                              |
+| LeetCode 155  | Min Stack                                | Easy       | Implement a stack which can return the min value of the current state. The key is to store the min value of each state. We can use a variable to cache the min for each stack node (define a custom class with fields: val, min, next). Then we can use `next` to connect this linked list to store stack. |
 |               |                                          |            |                                                              |
 
 <br/>
