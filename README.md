@@ -76,14 +76,15 @@ A personal LeetCode/LintCode Java solution set.
 
 ## DFS
 
-| #            | Title                                                        | Difficulty | Comment                                                      |
-| ------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
-| LeetCode 39  | Combination Sum                                              | Medium     |                                                              |
-| LeetCode 40  | Combination Sum II                                           | Medium     | Don't allow more than one same elements to be added into combination in a single for loop while writing the DFS helper function. |
-| LeetCode 216 | Combination Sum III                                          | Medium     | Brute force approach is okay. Time complexity is O(C(9, k)) => O(9^k). Iterating from bigger end can quit the for loop early and avoid unnecessary work. |
-| LeetCode 494 | Target Sum                                                   | Medium     | Also see DP #3                                               |
-| LeetCode 301 | Remove Invalid Parentheses                                   | Hard       | First, count the amount of parentheses required for deletion; Then, dfs; use `int idx, int dropOpenCnt, int dropCloseCnt` as parameters; use this condition `if (dropOpenCnt == 0 && dropCloseCnt == 0 && isValid(s)) ` to add element;  Note for recursive call idx should be i |
-| LeetCode 698 | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | Medium     | 1⃣️. calculate the sum of the array, and calculate the sum for each subset. If sum % k != 0, it's false; 2⃣️. use dfs to search all possible subset partitions; just like backtracking subset question, we need a `boolean[] isVisited` and `idx` (permutation doesn't need `idx`, because it cares about the order); if`k == 1`, it just can return true, as we promise the `sum % k = 0` |
+| #             | Title                                                        | Difficulty | Comment                                                      |
+| ------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 39   | Combination Sum                                              | Medium     |                                                              |
+| LeetCode 40   | Combination Sum II                                           | Medium     | Don't allow more than one same elements to be added into combination in a single for loop while writing the DFS helper function. |
+| LeetCode 216  | Combination Sum III                                          | Medium     | Brute force approach is okay. Time complexity is O(C(9, k)) => O(9^k). Iterating from bigger end can quit the for loop early and avoid unnecessary work. |
+| LeetCode 494  | Target Sum                                                   | Medium     | Also see DP #3                                               |
+| LeetCode 301  | Remove Invalid Parentheses                                   | Hard       | First, count the amount of parentheses required for deletion; Then, dfs; use `int idx, int dropOpenCnt, int dropCloseCnt` as parameters; use this condition `if (dropOpenCnt == 0 && dropCloseCnt == 0 && isValid(s)) ` to add element;  Note for recursive call idx should be i |
+| LeetCode 698  | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | Medium     | 1⃣️. calculate the sum of the array, and calculate the sum for each subset. If sum % k != 0, it's false; 2⃣️. use dfs to search all possible subset partitions; just like backtracking subset question, we need a `boolean[] isVisited` and `idx` (permutation doesn't need `idx`, because it cares about the order); if`k == 1`, it just can return true, as we promise the `sum % k = 0` |
+| LeetCode 1079 | Letter Tile Possibilities                                    | Medium     | Similar to subsets II & permutation. But there's a more tricky solution. Count the occurrence of all the letters. Then each step select one letter. Count the total selection of the specific length. |
 
 <br/>
 
