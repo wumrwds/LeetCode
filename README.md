@@ -93,7 +93,7 @@ A personal LeetCode/LintCode Java solution set.
 | #            | Title                            | Difficulty | Comment                                                      |
 | ------------ | -------------------------------- | ---------- | ------------------------------------------------------------ |
 | LeetCode 160 | Intersection of Two Linked Lists | Easy       | Let the tail of List A point to the head of List B; if there's a circle, it means have intersection; otherwise, it has no intersection |
-|              |                                  |            |                                                              |
+| LeetCode 143 | Reorder List                     | Medium     | 1. find the mid<br/>2. reverse the right part<br/>3. merge two lists |
 |              |                                  |            |                                                              |
 
 <br/>
