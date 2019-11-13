@@ -215,6 +215,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 120   | Triangle                        | Medium     | Take care that how to represent the index relationship between the last level index and the current level index: `dp[i][j] consists of dp[i-1][j-1] & dp[i-1][j]`. To meet the O(n) space complexity requirement, we can maintain the dp[] in a *bottom-to-top* approach. In the end, return dp[0]. |
 | LeetCode 1223  | Dice Roll Simulation            | Medium     | A little bit difficult. Notice that rollMax represents the max consecutive times. See comments. |
 | LeetCode  1102 | Path With Maximum Minimum Value | Medium     | Dijkstra's algorithm. Use a max heap to store the fringes. Use a boolean array to restore whether a point is visited. Once a point is in tree, it will not be modified again. Then just return. |
+| LeetCode 264   | Ugly Number                     | Medium     | Use 3 variables to store the current product for facter `2, 3, 5` respectively. |
 
 <br/>
 
@@ -225,6 +226,16 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 208  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | Medium     | TrieNode(links[R], R = 26, isEnd).                           |
 | LeetCode  642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system) | Hard       | Record the words and its times in each node. Then use a max heap to return top 3. |
 |               |                                                              |            |                                                              |
+
+<br/>
+
+## Math
+
+| #            | Title       | Difficulty | Comment                             |
+| ------------ | ----------- | ---------- | ----------------------------------- |
+| LeetCode 263 | Ugly Number | Easy       | Decomposing prime factor by 2, 3, 5 |
+|              |             |            |                                     |
+|              |             |            |                                     |
 
 <br/>
 
