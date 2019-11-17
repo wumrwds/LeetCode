@@ -231,11 +231,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Math
 
-| #            | Title       | Difficulty | Comment                             |
-| ------------ | ----------- | ---------- | ----------------------------------- |
-| LeetCode 263 | Ugly Number | Easy       | Decomposing prime factor by 2, 3, 5 |
-|              |             |            |                                     |
-|              |             |            |                                     |
+| #            | Title              | Difficulty | Comment                                                      |
+| ------------ | ------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 263 | Ugly Number        | Easy       | Decomposing prime factor by 2, 3, 5                          |
+| LeetCode 445 | Add Two Numbers II | Medium     | Add two numbers which are stored in two linked list. Use two stacks to solve it. Don't forget to check carry after while loop. |
+|              |                    |            |                                                              |
 
 <br/>
 
