@@ -161,6 +161,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 76  | Minimum Window Substring                                     | Hard       | **Sliding window**: 1. Use two pointers: start and end to represent a window; 2. Move end to find a valid window; 3. When a valid window is found, move start to find a smaller window. |
 | LeetCode 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) | Hard       | 1⃣️ Use a Deque to store the index of elements in sliding window; the elements in Deque is descend, so the maximum occurs in the head, minimum occurs in the end; in each round of loop, we only keep the "promising" elements in the Deque. 2⃣️ Use a prefix max array with a boundary on `index % k == 0` |
 | LeetCode 438 | Find All Anagrams in a String                                | Medium     | First expand the window to cover a possible answer, then shrink the window. Use a variable `incomplete` to record how many kinds of letters there're still not covered by the current window. When `incomplete == 0`, shrink and check whether the current window length is equal to `q.length()`. If it's equal, add the current `start` into the result set. Then destroy the state of `incomplete == 0` by expanding `end` of the window. |
+| LeetCode 713 | Subarray Product Less Than K                                 | Medium     | the number of subarrays that ends at index `end` is just the window size. Therefore, the total number is just the sum of every valid window's size. |
 
 <br/>
 
