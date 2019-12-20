@@ -123,7 +123,7 @@ A personal LeetCode/LintCode Java solution set.
 | #            | Title                   | Difficulty | Comment                                                      |
 | ------------ | ----------------------- | ---------- | ------------------------------------------------------------ |
 | LeetCode 347 | Top K Frequent Elements | Medium     | 1. Count occurrences of all elements; 2. Use a min heap with k capacity to filter top k frequent elements; Note that the constructor parameter of PriorityQueue is only the **initial capacity** |
-|              |                         |            |                                                              |
+| LeetCode 767 | Reorganize String       | Medium     | Select the most frequent letter then alternately place the selected letters. **Notice** that if there're some duplicates in a priority queue, it's not ensured that priority queue is FIFO. We need to manually poll one more element to check. |
 |              |                         |            |                                                              |
 
 <br/>
