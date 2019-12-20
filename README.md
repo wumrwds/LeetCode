@@ -31,6 +31,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 543 | Diameter of Binary Tree                                      | Easy       | Helper function used to calculate the tree depth; in the process of calculating tree depth, update max diameter |
 | LeetCode 617 | Merge Two Binary Trees                                       | Easy       | Manipulate two trees at the same time using preorder traversal in a single method |
 | LeetCode 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) | Medium     | BFS or Divide & Conquer; BFS: while meeting a null element, break while loop, and check whether there's any non-null nodes remaining in the queue. (after break, we need to iterate the remained elements in the queue) |
+| LeetCode 572 | Subtree of Another Tree                                      | Easy       | Two method: One is used to recursively apply on its two subtree; the other is used to recursively check whether two binary tree are the same. |
 
 <br/>
 
