@@ -183,6 +183,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 973 | K Closest Points to Origin | Medium     | Use the main idea of PARTITION in Quicksort to **sort the first k-th smallest elements**; it takes O(n) time. |
 | LeetCode 252 | Meeting Rooms              | Easy       | Sort by the left/right end of the interval, then compare the right/left end of the intervals. Followup: **LeetCode 253** |
 | LeetCode 253 | Meeting Rooms II           | Medium     | Add all left & right end points into an array, then sort by value (Note that we need to make right points before left points while they have same value); After that, iterating the points array; When we meet a left point, it means we are entering a new interval; otherwise, we are leaving an interval. (Just like using a vertical line to sweep from left to right) |
+| LeetCode 56  | Merge Intervals            | Medium     | Sort the segments by the left end. Then iterate all segments in the sorted array: if the current segment's left end is less than the last merged segment in the result set, then merge these two. |
 
 <br/>
 
