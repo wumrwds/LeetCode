@@ -205,6 +205,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode  953 | Verifying an Alien Dictionary      | Easy       | We can compare the first difference of two adjacency words in the List. For example, `"applying"` and `"apples"` have a first difference of `y` vs `e`. Then check wheter the character in first word is before that in the second word. Pay attention to this special case: `apple <-> app`. |
 | LeetCode 387  | First Unique Character in a String | Easy       | One pass solution: Use a LinkedHashMap to store the unique \<element, index\> pairs and a HashSet to check whether this element has occurred before. |
 | LeetCode 49   | Group Anagrams                     | Medium     | Count letters and then generate a key string using the count in the first step. |
+| LeetCode  437 | Path Sum III                       | Easy       | PrefixSum on Binary Tree. Use DFS and a HashMap to record the prefix sums. Notice that HashSet may neglect some cases. |
 
 <br/>
 
