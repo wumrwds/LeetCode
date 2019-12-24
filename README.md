@@ -137,6 +137,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 1249 | Minimum Remove to Make Valid Parentheses | Medium     | Use a stack to keep the indices of the characters required to be removed. Then, remove them togeter. |
 | LeetCode 155  | Min Stack                                | Easy       | Implement a stack which can return the min value of the current state. The key is to store the min value of each state. We can use a variable to cache the min for each stack node (define a custom class with fields: val, min, next). Then we can use `next` to connect this linked list to store stack. |
 | LeetCode 150  | Evaluate Reverse Polish Notation         | Medium     | Judge whether the current element is '+', '-', '*', '/' first. If not, it's an integer. |
+| LeetCode 456  | **132 Pattern**                          | Medium     | Every time we read one letter, we need to maintain a structure which stores all min-max Interval pairs before. We will use a stack here to help merge min-max Interval pairs. See more details in the code. It's better to combine the code with examples. It's not a easy question. |
 
 <br/>
 
