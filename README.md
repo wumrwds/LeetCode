@@ -222,6 +222,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 1223  | Dice Roll Simulation            | Medium     | A little bit difficult. Notice that rollMax represents the max consecutive times. See comments. |
 | LeetCode  1102 | Path With Maximum Minimum Value | Medium     | Dijkstra's algorithm. Use a max heap to store the fringes. Use a boolean array to restore whether a point is visited. Once a point is in tree, it will not be modified again. Then just return. |
 | LeetCode 264   | Ugly Number                     | Medium     | Use 3 variables to store the current product for facter `2, 3, 5` respectively. |
+| LeetCode 62    | Unique Paths                    | Medium     | `dp[i][j] = dp[i-1][j] + dp[i][j-1]`                         |
 
 <br/>
 
