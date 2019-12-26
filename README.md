@@ -52,6 +52,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 297  | Serialize and Deserialize Binary Tree | Hard       | serialize: BFS, then trim null elements in the tail; deserialize: iterate array and add current node to its position; use a queue to record current node which is being added; use a flag to mark left or right, each time meeting a left node means that it requires to get next node to be added |
 | LeetCode  133 | Clone Graph                           | Medium     | 3 steps: collect all old nodes in a list; create new nodes and keep it in a pair with old nodes in a map; copy edges |
 | LeetCode 199  | Binary Tree Right Side View           | Medium     | Level traversal on a binary tree. In each level, use a variable to store the size of the current level. |
+| LeetCode 994  | Rotting Oranges                       | Easy       | Level traversal on a chess board. First you should add all neighbors of rotten oranges into the BFS queue. Then use a counter to record the total number of fresh oranges. |
 
 <br/>
 
