@@ -87,6 +87,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 698  | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | Medium     | 1⃣️. calculate the sum of the array, and calculate the sum for each subset. If sum % k != 0, it's false; 2⃣️. use dfs to search all possible subset partitions; just like backtracking subset question, we need a `boolean[] isVisited` and `idx` (permutation doesn't need `idx`, because it cares about the order); if`k == 1`, it just can return true, as we promise the `sum % k = 0` |
 | LeetCode 1079 | Letter Tile Possibilities                                    | Medium     | Similar to subsets II & permutation. But there's a more tricky solution. Count the occurrence of all the letters. Then each step select one letter. Count the total selection of the specific length. |
 | LeetCode 863  | All Nodes Distance K in Binary Tree                          | Medium     | Use a adjacent to store a binary tree as a graph and for each tree node, the parent also represents an edge. So first we need to use DFS to construct the graph. Then use BFS to collect the node whose distance to the target node is K. |
+| LeetCode 980  | Unique Paths III                                             | Hard       | First find the start point and count all empty squares. Then use DFS+Backtracking to iterate all possible paths. If all emptys have been visited and the path reaches the end point, increase counter by 1. |
 
 <br/>
 
