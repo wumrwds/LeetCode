@@ -22,17 +22,18 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Binary Tree
 
-| #            | Title                                                        | Difficulty | Comment                                                      |
-| ------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
-| LeetCode 104 | Minimum Depth of Binary Tree                                 | Easy       |                                                              |
-| LeetCode 257 | Binary Tree Paths                                            | Easy       |                                                              |
-| LeetCode 110 | Balanced Binary Tree                                         | Easy       | Use custom class ResultType to return more than one value    |
-| LeetCode 236 | Lowest Common Ancestor of a Binary Tree                      | Medium     | Two cases: one side each or both in a side; preorder traversal |
-| LeetCode 543 | Diameter of Binary Tree                                      | Easy       | Helper function used to calculate the tree depth; in the process of calculating tree depth, update max diameter |
-| LeetCode 617 | Merge Two Binary Trees                                       | Easy       | Manipulate two trees at the same time using preorder traversal in a single method |
-| LeetCode 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) | Medium     | BFS or Divide & Conquer; BFS: while meeting a null element, break while loop, and check whether there's any non-null nodes remaining in the queue. (after break, we need to iterate the remained elements in the queue) |
-| LeetCode 572 | Subtree of Another Tree                                      | Easy       | Two method: One is used to recursively apply on its two subtree; the other is used to recursively check whether two binary tree are the same. |
-| LeetCode 545 | Boundary of Binary Tree                                      | Medium     | Write 3 traversal functions to traverse 3 parts of the binary tree: left side, bottom leaves, right side. **A corner case is [1].** In this case, we need to judge whether this tree is only of level 1, otherwise it will add the root twice into the result set. |
+| #             | Title                                                        | Difficulty | Comment                                                      |
+| ------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 104  | Minimum Depth of Binary Tree                                 | Easy       |                                                              |
+| LeetCode 257  | Binary Tree Paths                                            | Easy       |                                                              |
+| LeetCode 110  | Balanced Binary Tree                                         | Easy       | Use custom class ResultType to return more than one value    |
+| LeetCode 236  | Lowest Common Ancestor of a Binary Tree                      | Medium     | Two cases: one side each or both in a side; preorder traversal |
+| LeetCode 543  | Diameter of Binary Tree                                      | Easy       | Helper function used to calculate the tree depth; in the process of calculating tree depth, update max diameter |
+| LeetCode 617  | Merge Two Binary Trees                                       | Easy       | Manipulate two trees at the same time using preorder traversal in a single method |
+| LeetCode 958  | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) | Medium     | BFS or Divide & Conquer; BFS: while meeting a null element, break while loop, and check whether there's any non-null nodes remaining in the queue. (after break, we need to iterate the remained elements in the queue) |
+| LeetCode 572  | Subtree of Another Tree                                      | Easy       | Two method: One is used to recursively apply on its two subtree; the other is used to recursively check whether two binary tree are the same. |
+| LeetCode  103 | Binary Tree Zigzag Level Order Traversal                     | Medium     | Make some modification on level traversal. Use a boolean variable as a switch to control whether in this level we traverse from the left to the right or from the right to the left. Instead of polling the first element in the queue, we poll the last. Be careful about the order with the switch variable. |
+| LeetCode 545  | Boundary of Binary Tree                                      | Medium     | Write 3 traversal functions to traverse 3 parts of the binary tree: left side, bottom leaves, right side. **A corner case is [1].** In this case, we need to judge whether this tree is only of level 1, otherwise it will add the root twice into the result set. |
 
 <br/>
 
