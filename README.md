@@ -158,6 +158,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 76   | Minimum Window Substring                                     | Hard       | **Sliding window**: 1. Use two pointers: start and end to represent a window; 2. Move end to find a valid window; 3. When a valid window is found, move start to find a smaller window. |
 | LeetCode 680  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii) | Easy       | To skip the useless character, we can't easily skip it by judge `s[p+1] == s[q] or s[p] == s[q-1]`. Instead, we need to check the inner substring using the original validPalindrome function. |
 | LeetCode 986  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections) | Medium     | If the heads of the two sorted list are intersected, output the current intersection ( [maxStart, minEnd]). Then pop the interval with a less end (Because if the following interval will intersect with these two heads, it must intersect with the larger end) |
+| LeetCode 1099 | Two Sum Less Than K                                          | Easy       | Two pointers after sorting. Note that we can use the following way to get the closest maximum value to a target: `maxSum = Math.max(maxSum, sum)`. There's no need to calculate the difference. |
 
 <br/>
 
