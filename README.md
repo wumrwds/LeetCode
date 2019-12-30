@@ -127,11 +127,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Heap
 
-| #            | Title                   | Difficulty | Comment                                                      |
-| ------------ | ----------------------- | ---------- | ------------------------------------------------------------ |
-| LeetCode 347 | Top K Frequent Elements | Medium     | 1. Count occurrences of all elements; 2. Use a min heap with k capacity to filter top k frequent elements; Note that the constructor parameter of PriorityQueue is only the **initial capacity** |
-| LeetCode 767 | Reorganize String       | Medium     | Select the most frequent letter then alternately place the selected letters. **Notice** that if there're some duplicates in a priority queue, it's not ensured that priority queue is FIFO. We need to manually poll one more element to check. |
-|              |                         |            |                                                              |
+| #             | Title                   | Difficulty | Comment                                                      |
+| ------------- | ----------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 347  | Top K Frequent Elements | Medium     | 1. Count occurrences of all elements; 2. Use a min heap with k capacity to filter top k frequent elements; Note that the constructor parameter of PriorityQueue is only the **initial capacity** |
+| LeetCode 767  | Reorganize String       | Medium     | Select the most frequent letter then alternately place the selected letters. **Notice** that if there're some duplicates in a priority queue, it's not ensured that priority queue is FIFO. We need to manually poll one more element to check. |
+| LeetCode 1086 | High Five               | Easy       | Calculate the average score of each student's **top five scores**. Use Map + MinHeap(PriorityQueue) to implement. Note that the given students' IDs may not be continuous (e.g. 1, 2, 4, 8, ...). If the result is required to be sorted by students' IDs, use a TreeMap to maintain the order. |
 
 <br/>
 
