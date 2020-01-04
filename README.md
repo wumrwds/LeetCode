@@ -132,6 +132,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 347  | Top K Frequent Elements | Medium     | 1. Count occurrences of all elements; 2. Use a min heap with k capacity to filter top k frequent elements; Note that the constructor parameter of PriorityQueue is only the **initial capacity** |
 | LeetCode 767  | Reorganize String       | Medium     | Select the most frequent letter then alternately place the selected letters. **Notice** that if there're some duplicates in a priority queue, it's not ensured that priority queue is FIFO. We need to manually poll one more element to check. |
 | LeetCode 1086 | High Five               | Easy       | Calculate the average score of each student's **top five scores**. Use Map + MinHeap(PriorityQueue) to implement. Note that the given students' IDs may not be continuous (e.g. 1, 2, 4, 8, ...). If the result is required to be sorted by students' IDs, use a TreeMap to maintain the order. |
+| LeetCode 692  | Top K Frequent Words    | Medium     | Similar to LC 347. **Note that** when writing the priority queue comparator, we should return `b.getKey().compareTo(a.getKey())` instead of `a.getKey().compareTo(b.getKey())` in the case of `a.getValue() - b.getValue() == 0`. Think about the following 3 strings in the min heap: "abc", "abd", "abz". We should poll them in the order: "abz", "abd", "abc". The lexicographically larger string should be at the bottom of the heap. **Notice that** ArrayList.set() will throw NullPointerException if there's no element in that index. |
 
 <br/>
 
