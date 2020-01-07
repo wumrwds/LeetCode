@@ -214,6 +214,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 387  | First Unique Character in a String | Easy       | One pass solution: Use a LinkedHashMap to store the unique \<element, index\> pairs and a HashSet to check whether this element has occurred before. |
 | LeetCode 49   | Group Anagrams                     | Medium     | Count letters and then generate a key string using the count in the first step. |
 | LeetCode  437 | Path Sum III                       | Easy       | PrefixSum on Binary Tree. Use DFS and a HashMap to record the prefix sums. Notice that HashSet may neglect some cases. |
+| LeetCode 1152 | Analyze User Website Visit Pattern | Medium     | Use a hashmap to group elements by username. Then sort the elements in each group by timestamp. After sorting, iterate all possible 3-seqs in the brute-force approach and count the occurrence of each 3-seq. Finally, return the most frequently visited one. **Notice that** we need to use a hashset to remove duplicates inner the same user. (See more details in the code comment.) |
 
 <br/>
 
