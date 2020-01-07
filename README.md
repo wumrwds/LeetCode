@@ -117,11 +117,11 @@ A personal LeetCode/LintCode Java solution set.
 
 ## String
 
-| #             | Title                         | Difficulty | Comment |
-| ------------- | ----------------------------- | ---------- | ------- |
-| LeetCode  157 | Read N Characters Given Read4 | Easy       |         |
-|               |                               |            |         |
-|               |                               |            |         |
+| #            | Title                         | Difficulty | Comment                                                      |
+| ------------ | ----------------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 157 | Read N Characters Given Read4 | Easy       |                                                              |
+| LeetCode 165 | Compare Version Numbers       | Medium     | Add 0 in the tail for the shorter version string: `digit1 = (i < len1) ? Integer.parseInt(digits1[i]) : 0`. **Notice that** do not try to trim tailing zero for the longer version string. |
+|              |                               |            |                                                              |
 
 <br/>
 
