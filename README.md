@@ -241,7 +241,7 @@ A personal LeetCode/LintCode Java solution set.
 | ------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
 | LeetCode 208  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | Medium     | TrieNode(links[R], R = 26, isEnd).                           |
 | LeetCode  642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system) | Hard       | Record the words and its times in each node. Then use a max heap to return top 3. |
-|               |                                                              |            |                                                              |
+| LeetCode      | Search Suggestions System                                    | Medium     | `class Trie {private Trie[] links = new Trie[26]; List<String> suggestion = new ArrayList<>();}`. Notice that we're required to return 3 candidates at most. **This problem also can be solved using binary search**. |
 
 <br/>
 
