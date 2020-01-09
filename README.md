@@ -55,6 +55,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode  133 | Clone Graph                           | Medium     | 3 steps: collect all old nodes in a list; create new nodes and keep it in a pair with old nodes in a map; copy edges |
 | LeetCode 199  | Binary Tree Right Side View           | Medium     | Level traversal on a binary tree. In each level, use a variable to store the size of the current level. |
 | LeetCode 994  | Rotting Oranges                       | Easy       | Level traversal on a chess board. First you should add all neighbors of rotten oranges into the BFS queue. Then use a counter to record the total number of fresh oranges. |
+| LeetCode 542  | 01 Matrix                             | Medium     | Use a one-time BFS which starts at all 0 points. For each level, increase the distance by one. Use a matrix to record the shortest distance to 0 for every points. If the current distance is less than `ans[i][j]`, update `ans[i][j]` and add it into the BFS queue. **Do not** use a `boolean[][] isVisited` array and set the non-zero point to `Integer.MAX_VALUE` in the beginning. See more details in the code. |
 
 <br/>
 
