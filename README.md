@@ -37,6 +37,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 105  | Construct Binary Tree from Preorder and Inorder Traversal    | Medium     | Use the first element in the preorder array to determine the root. Then find the root value in the inorder array and separate the original array into two partitions. We can implement it by using a helper function. See details in the code. Notice to handle the `null` node case. |
 | LeetCode 235  | Lowest Common Ancestor of a Binary Search Tree               | Easy       | If the current node's value is between `p` and `q`, return it as the lowest common ancester. **Notice that p.val might be larger than q.val, we need to do a check first.** |
 | LeetCode 314  | Binary Tree Vertical Order Traversal                         | Medium     | Cannot use pre/in/postorder traversal to traverse all the nodes, Since the vertical order traversal must be from root to leaves. So we can use BFS to solve this problem. |
+| LeetCode 116  | Populating Next Right Pointers in Each Node                  | Medium     | The requirement is to limit the space complexity to O(1), so we cannot use BFS since we need a O(n) space queue. Alternately, we can use two pointers: one points to the head of each level, another points to currently operating node. For each `cur` node, we connect its `cur.left.next` to `cur.right` and then move cur to the next node in the same level by `cur = cur.next`. |
 
 <br/>
 
