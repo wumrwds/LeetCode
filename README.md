@@ -170,6 +170,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 680  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii) | Easy       | To skip the useless character, we can't easily skip it by judge `s[p+1] == s[q] or s[p] == s[q-1]`. Instead, we need to check the inner substring using the original validPalindrome function. |
 | LeetCode 986  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections) | Medium     | If the heads of the two sorted list are intersected, output the current intersection ( [maxStart, minEnd]). Then pop the interval with a less end (Because if the following interval will intersect with these two heads, it must intersect with the larger end) |
 | LeetCode 1099 | Two Sum Less Than K                                          | Easy       | Two pointers after sorting. Note that we can use the following way to get the closest maximum value to a target: `maxSum = Math.max(maxSum, sum)`. There's no need to calculate the difference. |
+| LeetCode 75   | Sort Colors                                                  | Medium     | Use two pointers to point to the next index for inserting `0` and `2` respectively. Then use another pointer to iterate the whole array. **Note that** after swapping with 2, we need move back `i` by 1, since for the index `q` it has not been scanned yet so it might be `0` or `2` and it's required to be checked while for the index `p` it must be `1`, so it doest need any extra check. |
 
 <br/>
 
