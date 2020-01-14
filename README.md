@@ -36,6 +36,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 545  | Boundary of Binary Tree                                      | Medium     | Write 3 traversal functions to traverse 3 parts of the binary tree: left side, bottom leaves, right side. **A corner case is [1].** In this case, we need to judge whether this tree is only of level 1, otherwise it will add the root twice into the result set. |
 | LeetCode 105  | Construct Binary Tree from Preorder and Inorder Traversal    | Medium     | Use the first element in the preorder array to determine the root. Then find the root value in the inorder array and separate the original array into two partitions. We can implement it by using a helper function. See details in the code. Notice to handle the `null` node case. |
 | LeetCode 235  | Lowest Common Ancestor of a Binary Search Tree               | Easy       | If the current node's value is between `p` and `q`, return it as the lowest common ancester. **Notice that p.val might be larger than q.val, we need to do a check first.** |
+| LeetCode 314  | Binary Tree Vertical Order Traversal                         | Medium     | Cannot use pre/in/postorder traversal to traverse all the nodes, Since the vertical order traversal must be from root to leaves. So we can use BFS to solve this problem. |
 
 <br/>
 
