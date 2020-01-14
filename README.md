@@ -38,6 +38,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 235  | Lowest Common Ancestor of a Binary Search Tree               | Easy       | If the current node's value is between `p` and `q`, return it as the lowest common ancester. **Notice that p.val might be larger than q.val, we need to do a check first.** |
 | LeetCode 314  | Binary Tree Vertical Order Traversal                         | Medium     | Cannot use pre/in/postorder traversal to traverse all the nodes, Since the vertical order traversal must be from root to leaves. So we can use BFS to solve this problem. |
 | LeetCode 116  | Populating Next Right Pointers in Each Node                  | Medium     | The requirement is to limit the space complexity to O(1), so we cannot use BFS since we need a O(n) space queue. Alternately, we can use two pointers: one points to the head of each level, another points to currently operating node. For each `cur` node, we connect its `cur.left.next` to `cur.right` and then move cur to the next node in the same level by `cur = cur.next`. |
+| LeetCode 117  | Populating Next Right Pointers in Each Node II               | Medium     | Extended from 116. The binary tree now is not a perfect tree. We can use **3 pointers** to solve this case: `levelHead` represents the head of the next level, `cur` represents the current node of the current level, `lead` represents the current leading node for assigning `.next` attribute. |
 
 <br/>
 
