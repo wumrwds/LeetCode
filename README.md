@@ -243,6 +243,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 264   | Ugly Number                     | Medium     | Use 3 variables to store the current product for facter `2, 3, 5` respectively. |
 | LeetCode 62    | Unique Paths                    | Medium     | `dp[i][j] = dp[i-1][j] + dp[i][j-1]`                         |
 | LeetCode  63   | Unique Paths II                 | Medium     | The trasition equation is still `dp[i][j] = dp[i-1][j] + dp[i][j-1]`. The only difference is how to treat the obstacles. |
+| LeetCode 516   | Longest Palindromic Subsequence | Medium     | Transition equation: `dp[i][j] = dp[i+1][j-1] + 2 or max(dp[i+1][j], dp[i][j-1])`. Start from `len = 1` to `len = n`. We can also reduce the space from `O(n^2)` to `O(n)`. |
 
 <br/>
 
