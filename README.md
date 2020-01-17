@@ -101,6 +101,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 980  | Unique Paths III                                             | Hard       | First find the start point and count all empty squares. Then use DFS+Backtracking to iterate all possible paths. If all emptys have been visited and the path reaches the end point, increase counter by 1. |
 | LeetCode 841  | Keys and Rooms                                               | Medium     | It's a graph problem. Start from 0, check whether we can connect to all vertices using DFS. |
 | LeetCode 733  | Flood Fill                                                   | Easy       | Flood fill the same color pixels. We can use a helper function to do the DFS easily. **Note that** if the `newColor` is the same color as the target pixel, do nothing and return the original matrix. |
+| LeetCode 490  | The Maze                                                     | Medium     | DFS in a fixed direction. Use a helper `dfs` function to do it. Then use a 2D `boolean[][]` array to record the stop points. When the DFS meets a visited stop point, just skip it. |
 
 <br/>
 
