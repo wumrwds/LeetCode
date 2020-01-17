@@ -154,6 +154,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 150  | Evaluate Reverse Polish Notation         | Medium     | Judge whether the current element is '+', '-', '*', '/' first. If not, it's an integer. |
 | LeetCode 456  | **132 Pattern**                          | Medium     | Every time we read one letter, we need to maintain a structure which stores all min-max Interval pairs before. We will use a stack here to help merge min-max Interval pairs. See more details in the code. It's better to combine the code with examples. It's not a easy question. |
 | LeetCode 388  | Longest Absolute File Path               | Medium     | **`\n, \t, \r` is a single character, not two characters. They are one of the ASCII characters!!!** We can use a variable `level` and a stack to record the current prefix path length. Don't forget there's a slash between two subdirectories. |
+| LeetCode 636  | Exclusive Time of Functions              | Medium     | Use a stack to record the current non-finished functions and a variable `prev` to record the last switching timestamp. **Note that** the start and end timestamp are all inside an interval. That means for two consequent `start` or `end`, the length of this interval is `time2 - time1`, but for a consequent `start`, `end` pair, it's `time2 - time1 + 1`. |
 
 <br/>
 
@@ -243,7 +244,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 264   | Ugly Number                     | Medium     | Use 3 variables to store the current product for facter `2, 3, 5` respectively. |
 | LeetCode 62    | Unique Paths                    | Medium     | `dp[i][j] = dp[i-1][j] + dp[i][j-1]`                         |
 | LeetCode  63   | Unique Paths II                 | Medium     | The trasition equation is still `dp[i][j] = dp[i-1][j] + dp[i][j-1]`. The only difference is how to treat the obstacles. |
-| LeetCode 516   | Longest Palindromic Subsequence | Medium     | Transition equation: `dp[i][j] = dp[i+1][j-1] + 2 or max(dp[i+1][j], dp[i][j-1])`. Start from `len = 1` to `len = n`. We can also reduce the space from `O(n^2)` to `O(n)`. |
+| LeetCode 516   | Longest Palindromic Subsequence | Medium     | Transition equation: `dp[i][j] = dp[i+1][j-1] + 2 or max(dp[i+1][j], dp[i][j-1])`. Start from `len = 1` to `len = n`. We can also reduce the space from `O(n^2)` to `O(n)` by recording the last state's leftmost dp element. (The dp array is updated like a triangle) |
 
 <br/>
 
