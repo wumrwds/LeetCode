@@ -100,6 +100,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 863  | All Nodes Distance K in Binary Tree                          | Medium     | Use a adjacent to store a binary tree as a graph and for each tree node, the parent also represents an edge. So first we need to use DFS to construct the graph. Then use BFS to collect the node whose distance to the target node is K. |
 | LeetCode 980  | Unique Paths III                                             | Hard       | First find the start point and count all empty squares. Then use DFS+Backtracking to iterate all possible paths. If all emptys have been visited and the path reaches the end point, increase counter by 1. |
 | LeetCode 841  | Keys and Rooms                                               | Medium     | It's a graph problem. Start from 0, check whether we can connect to all vertices using DFS. |
+| LeetCode 733  | Flood Fill                                                   | Easy       | Flood fill the same color pixels. We can use a helper function to do the DFS easily. **Note that** if the `newColor` is the same color as the target pixel, do nothing and return the original matrix. |
 
 <br/>
 
