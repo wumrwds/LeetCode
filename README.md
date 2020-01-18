@@ -280,7 +280,7 @@ A personal LeetCode/LintCode Java solution set.
 | #            | Title               | Difficulty | Comment                                                      |
 | ------------ | ------------------- | ---------- | ------------------------------------------------------------ |
 | LeetCode 997 | Find the Town Judge | Easy       | The judge's out-degree must be zero and it's indegree must be `N-1`. |
-|              |                     |            |                                                              |
+| LeetCode 277 | Find the Celebrity  | Medium     | Similar to `LeetCode 997`. Intuitively, we need to check whether there's a node whose in-degree is `N-1` and out-degree is `0`. It takes O(n^2). But we have a two-pass approach to solve this problem. In the first pass, we can record the one which isn't connected by any vertex. Then, in the second pass, we can check whether there's another vertex connecting to this candidate vertex. **Note that **a special case is that there're two candidates (e.g. there're two connected components), so in the second pass we need to check `knows(celebrity, i) || !knows(i, celebrity)` to avoid wrong answer in this case. |
 |              |                     |            |                                                              |
 
 <br/>
