@@ -103,6 +103,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 841  | Keys and Rooms                                               | Medium     | It's a graph problem. Start from 0, check whether we can connect to all vertices using DFS. |
 | LeetCode 733  | Flood Fill                                                   | Easy       | Flood fill the same color pixels. We can use a helper function to do the DFS easily. **Note that** if the `newColor` is the same color as the target pixel, do nothing and return the original matrix. |
 | LeetCode 490  | The Maze                                                     | Medium     | DFS in a fixed direction. Use a helper `dfs` function to do it. Then use a 2D `boolean[][]` array to record the stop points. When the DFS meets a visited stop point, just skip it. |
+| LeetCode 694  | Number of Distinct Islands                                   | Medium     | We can use DFS to traverse each connected component. In order to distinguish each different island shape, we can generate a string of traversal order and use a hashset to remove the duplicate. **Notice that ** for the case `[[1,1,0],[0,1,1],[0,0,0],[1,1,1],[0,1,0]]`  if we don't add a delimiter for each node, it will have some duplicates. |
 
 <br/>
 
