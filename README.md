@@ -275,3 +275,12 @@ A personal LeetCode/LintCode Java solution set.
 
 <br/>
 
+## Graph
+
+| #            | Title               | Difficulty | Comment                                                      |
+| ------------ | ------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 997 | Find the Town Judge | Easy       | The judge's out-degree must be zero and it's indegree must be `N-1`. |
+|              |                     |            |                                                              |
+|              |                     |            |                                                              |
+
+<br/>
