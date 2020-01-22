@@ -236,19 +236,20 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Dynamic Programming
 
-| #              | Title                           | Difficulty | Comment                                                      |
-| -------------- | ------------------------------- | ---------- | ------------------------------------------------------------ |
-| LeetCode 312   | Burst Balloons                  | Hard       | 1. Denote dp\[i]\[j] as the maximum gain for bursting the balloons from i to j; 2. Get recursive equation; 3. Iterate from length 0 |
-| LintCode 92    | Backpack                        | Medium     | Classical knapsack problem; denote dp\[i]\[j] as the max weight for the first i items with backpack of j size; So for the i th item, it will have two cases: in or out; dp\[i]\[j] = max(dp\[i-1]\[j], dp\[i-1]\[j-A\[i]] + A\[i]); **space complexity can be O(V)** |
-| LeetCode 494   | Target Sum                      | Medium     | DFS or DP; just see as a knapsack problem; test cases should include `[0,0,0,0,1], 1`; map index [-sum, sum] to [0, 2*sum]; when initializing, `++` the dp\[0]\[-num\[i]] instead of assigning 1 |
-| LeetCode 279   | Perfect Squares                 | Medium     | problem of `n` can be divided into the subproblem of `n-square[i]`  + 1; Time complexity is O(n*sqrt(n)) |
-| LeetCode 120   | Triangle                        | Medium     | Take care that how to represent the index relationship between the last level index and the current level index: `dp[i][j] consists of dp[i-1][j-1] & dp[i-1][j]`. To meet the O(n) space complexity requirement, we can maintain the dp[] in a *bottom-to-top* approach. In the end, return dp[0]. |
-| LeetCode 1223  | Dice Roll Simulation            | Medium     | A little bit difficult. Notice that rollMax represents the max consecutive times. See comments. |
-| LeetCode  1102 | Path With Maximum Minimum Value | Medium     | Dijkstra's algorithm. Use a max heap to store the fringes. Use a boolean array to restore whether a point is visited. Once a point is in tree, it will not be modified again. Then just return. |
-| LeetCode 264   | Ugly Number                     | Medium     | Use 3 variables to store the current product for facter `2, 3, 5` respectively. |
-| LeetCode 62    | Unique Paths                    | Medium     | `dp[i][j] = dp[i-1][j] + dp[i][j-1]`                         |
-| LeetCode  63   | Unique Paths II                 | Medium     | The trasition equation is still `dp[i][j] = dp[i-1][j] + dp[i][j-1]`. The only difference is how to treat the obstacles. |
-| LeetCode 516   | Longest Palindromic Subsequence | Medium     | Transition equation: `dp[i][j] = dp[i+1][j-1] + 2 or max(dp[i+1][j], dp[i][j-1])`. Start from `len = 1` to `len = n`. We can also reduce the space from `O(n^2)` to `O(n)` by recording the last state's leftmost dp element. (The dp array is updated like a triangle) |
+| #              | Title                                            | Difficulty | Comment                                                      |
+| -------------- | ------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| LeetCode 312   | Burst Balloons                                   | Hard       | 1. Denote dp\[i]\[j] as the maximum gain for bursting the balloons from i to j; 2. Get recursive equation; 3. Iterate from length 0 |
+| LintCode 92    | Backpack                                         | Medium     | Classical knapsack problem; denote dp\[i]\[j] as the max weight for the first i items with backpack of j size; So for the i th item, it will have two cases: in or out; dp\[i]\[j] = max(dp\[i-1]\[j], dp\[i-1]\[j-A\[i]] + A\[i]); **space complexity can be O(V)** |
+| LeetCode 494   | Target Sum                                       | Medium     | DFS or DP; just see as a knapsack problem; test cases should include `[0,0,0,0,1], 1`; map index [-sum, sum] to [0, 2*sum]; when initializing, `++` the dp\[0]\[-num\[i]] instead of assigning 1 |
+| LeetCode 279   | Perfect Squares                                  | Medium     | problem of `n` can be divided into the subproblem of `n-square[i]`  + 1; Time complexity is O(n*sqrt(n)) |
+| LeetCode 120   | Triangle                                         | Medium     | Take care that how to represent the index relationship between the last level index and the current level index: `dp[i][j] consists of dp[i-1][j-1] & dp[i-1][j]`. To meet the O(n) space complexity requirement, we can maintain the dp[] in a *bottom-to-top* approach. In the end, return dp[0]. |
+| LeetCode 1223  | Dice Roll Simulation                             | Medium     | A little bit difficult. Notice that rollMax represents the max consecutive times. See comments. |
+| LeetCode  1102 | Path With Maximum Minimum Value                  | Medium     | Dijkstra's algorithm. Use a max heap to store the fringes. Use a boolean array to restore whether a point is visited. Once a point is in tree, it will not be modified again. Then just return. |
+| LeetCode 264   | Ugly Number                                      | Medium     | Use 3 variables to store the current product for facter `2, 3, 5` respectively. |
+| LeetCode 62    | Unique Paths                                     | Medium     | `dp[i][j] = dp[i-1][j] + dp[i][j-1]`                         |
+| LeetCode  63   | Unique Paths II                                  | Medium     | The trasition equation is still `dp[i][j] = dp[i-1][j] + dp[i][j-1]`. The only difference is how to treat the obstacles. |
+| LeetCode 516   | Longest Palindromic Subsequence                  | Medium     | Transition equation: `dp[i][j] = dp[i+1][j-1] + 2 or max(dp[i+1][j], dp[i][j-1])`. Start from `len = 1` to `len = n`. We can also reduce the space from `O(n^2)` to `O(n)` by recording the last state's leftmost dp element. (The dp array is updated like a triangle) |
+| LeetCode 1326  | Minimum Number of Taps to Open to Water a Garden | Hard       | **1.** DP: `dp[i] = min(min(dp[start...i-1]) + 1 => dp[i]) = min(dp[start] + 1, dp[i])`, since dp[] must be ascending, so dp[start] must be the smallest one among dp[start...i-1]. **2.** Greedy: Sort the segments and then extend the possible maximal range step by step.(See the code.) |
 
 <br/>
 
