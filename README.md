@@ -64,6 +64,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 909  | Snakes and Ladders                    | Medium     | **We can't use DP** to solve this problem since there're snakes and ladders which will destroy the optimal subproblem structure. Use BFS to do level traversal until reaching the end point. Write a helper function to get the coordinate by the square number `i`. If a snake takes to a previously visited square, skip it so that we will not get into a cycle. |
 | LeetCode 286  | Walls and Gates                       | Medium     | Similar to `LeetCode 542`.                                   |
 | LeetCode 505  | The Maze II                           | Medium     | Similar to `LeetCode 490`. This problem requires to calculate the distance to the stop points. Thus we can use BFS to do it. |
+| LeetCode 1306 | Jump Game III                         | Medium     | Use BFS or DFS to traverse. If find an index whose corresponding element is equal to 0, return true. |
 
 <br/>
 
