@@ -219,6 +219,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 406  | Queue Reconstruction by Height                               | Medium     | Descending sort array by height; for people having same height, ascending sort by index; Then, insert the elements of the sorted array; in each iteration, the current element must be the smallest element due to descending sorting, so just call the method `add(p[i], p)` of LinkedList |
 | LeetCode 621  | [Task Scheduler](https://leetcode.com/problems/task-scheduler) | Medium     | https://leetcode.com/problems/task-scheduler/discuss/104500/Java-O(n)-time-O(1)-space-1-pass-no-sorting-solution-with-detailed-explanation; https://github.com/tzheng/interviewprep/blob/master/SourceCode/TaskCoolDown.java |
 | LeetCode 1167 | Minimum Cost to Connect Sticks                               | Medium     | Use a min heap to store the elements. Each time poll two minimal elements from the heap until there's only 1 element left in the heap. Return the total cost. |
+| LeetCode 1024 | Video Stitching                                              | Medium     | Similar to `LeetCode 1326`. But it's not that good to use DP to solve this problem. It takes `O(nT)` while greedy takes `O(nlog(n))`. See details in the code. |
 
 <br/>
 
