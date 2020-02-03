@@ -136,6 +136,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 157  | Read N Characters Given Read4 | Easy       |                                                              |
 | LeetCode 165  | Compare Version Numbers       | Medium     | Add 0 in the tail for the shorter version string: `digit1 = (i < len1) ? Integer.parseInt(digits1[i]) : 0`. **Notice that** do not try to trim tailing zero for the longer version string. |
 | LeetCode  811 | Subdomain Visit Count         | Easy       | How to get the suffix strings (e.g. `"discuss.leetcode.com", "leetcode.com", "com"`) from a url `"discuss.leetcode.com"` |
+| LeetCode 1023 | Camelcase Matching            | Medium     | Just think about this three kinds of test cases`queries = [aFoB, aFaocBad, Fo], pattern = "FoB"`. Write a check function to handle this three kinds of cases using Two Pointers. |
 
 <br/>
 
