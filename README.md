@@ -263,7 +263,8 @@ A personal LeetCode/LintCode Java solution set.
 | ------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
 | LeetCode 208  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | Medium     | TrieNode(links[R], R = 26, isEnd).                           |
 | LeetCode  642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system) | Hard       | Record the words and its times in each node. Then use a max heap to return top 3. |
-| LeetCode      | Search Suggestions System                                    | Medium     | `class Trie {private Trie[] links = new Trie[26]; List<String> suggestion = new ArrayList<>();}`. Notice that we're required to return 3 candidates at most. **This problem also can be solved using binary search**. |
+| LeetCode 1268 | Search Suggestions System                                    | Medium     | `class Trie {private Trie[] links = new Trie[26]; List<String> suggestion = new ArrayList<>();}`. Notice that we're required to return 3 candidates at most. **This problem also can be solved using binary search**. |
+| LeetCode 421  | Maximum XOR of Two Numbers in an Array                       | Medium     | In order to get a maximum XOR, we need to get a most different prefix from the left. So we can use trie to get it. There're some tricks: **1.** Use `Integer.toBinaryString()` to convert integers to a  bit represented string. **2.** use `Integer.toBinaryString(nums[i] | highBitMask).substring(1)` to keep a `0000..` prefix for the small numbers. **3.** update the maximum XOR in every insertion. |
 
 <br/>
 
