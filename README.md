@@ -1,4 +1,4 @@
-# LeetCode Solution Set
+# ./LeetCode Solution Set
 
 -------------------------------------
 
@@ -105,6 +105,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 733  | Flood Fill                                                   | Easy       | Flood fill the same color pixels. We can use a helper function to do the DFS easily. **Note that** if the `newColor` is the same color as the target pixel, do nothing and return the original matrix. |
 | LeetCode 490  | The Maze                                                     | Medium     | DFS in a fixed direction. Use a helper `dfs` function to do it. Then use a 2D `boolean[][]` array to record the stop points. When the DFS meets a visited stop point, just skip it. |
 | LeetCode 694  | Number of Distinct Islands                                   | Medium     | We can use DFS to traverse each connected component. In order to distinguish each different island shape, we can generate a string of traversal order and use a hashset to remove the duplicate. **Notice that ** for the case `[[1,1,0],[0,1,1],[0,0,0],[1,1,1],[0,1,0]]`  if we don't add a delimiter for each node, it will have some duplicates. |
+| LeetCode 1087 | Brace Expansion                                              | Medium     | Backtracking. Better to parse curly braces first, then start to do DFS. Also better to do sorting before DFS. |
 
 <br/>
 
@@ -179,6 +180,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 986  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections) | Medium     | If the heads of the two sorted list are intersected, output the current intersection ( [maxStart, minEnd]). Then pop the interval with a less end (Because if the following interval will intersect with these two heads, it must intersect with the larger end) |
 | LeetCode 1099 | Two Sum Less Than K                                          | Easy       | Two pointers after sorting. Note that we can use the following way to get the closest maximum value to a target: `maxSum = Math.max(maxSum, sum)`. There's no need to calculate the difference. |
 | LeetCode 75   | Sort Colors                                                  | Medium     | Use two pointers to point to the next index for inserting `0` and `2` respectively. Then use another pointer to iterate the whole array. **Note that** after swapping with 2, we need move back `i` by 1, since for the index `q` it has not been scanned yet so it might be `0` or `2` and it's required to be checked while for the index `p` it must be `1`, so it doest need any extra check. |
+| LeetCode 826  | Most Profit Assigning Work                                   | Medium     | Sort `difficulty & profit` pairs and `worker`. Then use one pointer to iterate the `difficulty & profit` pairs, another pointer to iterate `worker`. While iterating, use two variables `sum` and `maxProfit` to record the current profit sum and the current max profit. |
 
 <br/>
 
