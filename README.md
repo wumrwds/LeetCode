@@ -162,6 +162,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 456  | **132 Pattern**                          | Medium     | Every time we read one letter, we need to maintain a structure which stores all min-max Interval pairs before. We will use a stack here to help merge min-max Interval pairs. See more details in the code. It's better to combine the code with examples. It's not a easy question. |
 | LeetCode 388  | Longest Absolute File Path               | Medium     | **`\n, \t, \r` is a single character, not two characters. They are one of the ASCII characters!!!** We can use a variable `level` and a stack to record the current prefix path length. Don't forget there's a slash between two subdirectories. |
 | LeetCode 636  | Exclusive Time of Functions              | Medium     | Use a stack to record the current non-finished functions and a variable `prev` to record the last switching timestamp. **Note that** the start and end timestamp are all inside an interval. That means for two consequent `start` or `end`, the length of this interval is `time2 - time1`, but for a consequent `start`, `end` pair, it's `time2 - time1 + 1`. |
+| LeetCode 439  | Ternary Expression Parser                | Medium     | Simlar to `Reverse Polish Notation`. But we can solve this question by iterating from the tail and every time we meet a `?`, we pop two values from our stack and do calculation. Another way is to divide the original string into two blocks and get the answer recursively. |
 
 <br/>
 
