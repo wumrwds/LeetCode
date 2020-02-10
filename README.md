@@ -107,6 +107,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 694  | Number of Distinct Islands                                   | Medium     | We can use DFS to traverse each connected component. In order to distinguish each different island shape, we can generate a string of traversal order and use a hashset to remove the duplicate. **Notice that ** for the case `[[1,1,0],[0,1,1],[0,0,0],[1,1,1],[0,1,0]]`  if we don't add a delimiter for each node, it will have some duplicates. |
 | LeetCode 1087 | Brace Expansion                                              | Medium     | Backtracking. Better to parse curly braces first, then start to do DFS. Also better to do sorting before DFS. |
 | LeetCode 417  | Pacific Atlantic Water Flow                                  | Medium     | We can consider in a reverse way: this question requires to find out the grids which can both reach Pacific and Atlantic. So we can start from Pacific and Atlantic, then see which grids can be reached from Pacific and Atlantic respectively. Finally, collect the grids which can be reached both by Pacific and Atlantic. |
+| LeetCode 547  | Friend Circles                                               | Medium     | Find SCC in undirected graph. Use DFS to resolve it. (See the code) **Note that** we need to use Tarjan's algorithm to find SCC in directed graph. We can also use UNION-FIND to solve this question. |
 
 <br/>
 
@@ -140,6 +141,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 165  | Compare Version Numbers       | Medium     | Add 0 in the tail for the shorter version string: `digit1 = (i < len1) ? Integer.parseInt(digits1[i]) : 0`. **Notice that** do not try to trim tailing zero for the longer version string. |
 | LeetCode  811 | Subdomain Visit Count         | Easy       | How to get the suffix strings (e.g. `"discuss.leetcode.com", "leetcode.com", "com"`) from a url `"discuss.leetcode.com"` |
 | LeetCode 1023 | Camelcase Matching            | Medium     | Just think about this three kinds of test cases`queries = [aFoB, aFaocBad, Fo], pattern = "FoB"`. Write a check function to handle this three kinds of cases using Two Pointers. |
+| LeetCode 1002 | Find Common Characters        | Easy       | Do bag intersaction for every letter in the given string set. We can use a integer array `cnt[]` to record the occurance for every letter in each string. Then we choose the minimum cnt of every letter for all strings as the final returned answer. |
 
 <br/>
 
