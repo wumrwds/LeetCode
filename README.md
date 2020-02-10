@@ -260,6 +260,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode  63   | Unique Paths II                                  | Medium     | The trasition equation is still `dp[i][j] = dp[i-1][j] + dp[i][j-1]`. The only difference is how to treat the obstacles. |
 | LeetCode 516   | Longest Palindromic Subsequence                  | Medium     | Transition equation: `dp[i][j] = dp[i+1][j-1] + 2 or max(dp[i+1][j], dp[i][j-1])`. Start from `len = 1` to `len = n`. We can also reduce the space from `O(n^2)` to `O(n)` by recording the last state's leftmost dp element. (The dp array is updated like a triangle) |
 | LeetCode 1326  | Minimum Number of Taps to Open to Water a Garden | Hard       | **1.** DP: `dp[i] = min(min(dp[start...i-1]) + 1 => dp[i]) = min(dp[start] + 1, dp[i])`, since dp[] must be ascending, so dp[start] must be the smallest one among dp[start...i-1]. **2.** Greedy: Sort the segments and then extend the possible maximal range step by step.(See the code.) |
+| LeetCode 276   | Paint Fence                                      | Easy       | Similar to `1223 Dice Roll Simulation `. The transition equation is `same[i] = diff[i-1]` and `diff[i] = k * sum(same[i-1], diff[i-1]) - same[i-1] - same[i] = (k-1) * sum`. |
 
 <br/>
 
