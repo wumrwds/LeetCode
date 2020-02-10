@@ -106,6 +106,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 490  | The Maze                                                     | Medium     | DFS in a fixed direction. Use a helper `dfs` function to do it. Then use a 2D `boolean[][]` array to record the stop points. When the DFS meets a visited stop point, just skip it. |
 | LeetCode 694  | Number of Distinct Islands                                   | Medium     | We can use DFS to traverse each connected component. In order to distinguish each different island shape, we can generate a string of traversal order and use a hashset to remove the duplicate. **Notice that ** for the case `[[1,1,0],[0,1,1],[0,0,0],[1,1,1],[0,1,0]]`  if we don't add a delimiter for each node, it will have some duplicates. |
 | LeetCode 1087 | Brace Expansion                                              | Medium     | Backtracking. Better to parse curly braces first, then start to do DFS. Also better to do sorting before DFS. |
+| LeetCode 417  | Pacific Atlantic Water Flow                                  | Medium     | We can consider in a reverse way: this question requires to find out the grids which can both reach Pacific and Atlantic. So we can start from Pacific and Atlantic, then see which grids can be reached from Pacific and Atlantic respectively. Finally, collect the grids which can be reached both by Pacific and Atlantic. |
 
 <br/>
 
