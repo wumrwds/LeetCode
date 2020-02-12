@@ -189,6 +189,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 1099 | Two Sum Less Than K                                          | Easy       | Two pointers after sorting. Note that we can use the following way to get the closest maximum value to a target: `maxSum = Math.max(maxSum, sum)`. There's no need to calculate the difference. |
 | LeetCode 75   | Sort Colors                                                  | Medium     | Use two pointers to point to the next index for inserting `0` and `2` respectively. Then use another pointer to iterate the whole array. **Note that** after swapping with 2, we need move back `i` by 1, since for the index `q` it has not been scanned yet so it might be `0` or `2` and it's required to be checked while for the index `p` it must be `1`, so it doest need any extra check. |
 | LeetCode 826  | Most Profit Assigning Work                                   | Medium     | Sort `difficulty & profit` pairs and `worker`. Then use one pointer to iterate the `difficulty & profit` pairs, another pointer to iterate `worker`. While iterating, use two variables `sum` and `maxProfit` to record the current profit sum and the current max profit. |
+| LeetCode 633  | Sum of Square Numbers                                        | Easy       | Calculate square value of every number less than `sqrt(c)`. Then use two pointers approach to check whether there's a pair sum up to `c`. |
 
 <br/>
 
