@@ -274,6 +274,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 1326  | Minimum Number of Taps to Open to Water a Garden | Hard       | **1.** DP: `dp[i] = min(min(dp[start...i-1]) + 1 => dp[i]) = min(dp[start] + 1, dp[i])`, since dp[] must be ascending, so dp[start] must be the smallest one among dp[start...i-1]. **2.** Greedy: Sort the segments and then extend the possible maximal range step by step.(See the code.) |
 | LeetCode 276   | Paint Fence                                      | Easy       | Similar to `1223 Dice Roll Simulation `. The transition equation is `same[i] = diff[i-1]` and `diff[i] = k * sum(same[i-1], diff[i-1]) - same[i-1] - same[i] = (k-1) * sum`. |
 | LeetCode 416   | Partition Equal Subset Sum                       | Medium     | It's a knapsack problem. `dp[i][j]` => whether we can use the first i elements to sum up to j. The transition equation is `dp[i][j] = dp[i-1][j-num[i]]`. The initialization state is `dp[i][j] = true, j = 0`. And we can reduce the space complexity to `O(sum)`. But notice that when iterating the states, we should start from the tail to the head, since if we update the lower elements first, it will impact the updatement of the higher elements. |
+| LeetCode 718   | Maximum Length of Repeated Subarray              | Medium     | State definition: `dp[i][j] => the maximum length of the repeated subarray that ends at i for A, at j for B`. State Transition: `dp[i][j] = (A[i] == B[j]) ? dp[i-1][j-1] + 1 : 0`. State initialization: ``dp[i][j] = 0, i = 0 || j = 0`. |
 
 <br/>
 
