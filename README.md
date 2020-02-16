@@ -126,13 +126,14 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Array
 
-| #            | Title                        | Difficulty | Comment                                                      |
-| ------------ | ---------------------------- | ---------- | ------------------------------------------------------------ |
-| LintCode 139 | Subarray Sum Closest         | Medium     | subarray_sum(i, j) = prefix[j+1] - prefix[i]; find the least difference of two elements in the prefix array |
-| LeetCode 42  | Trapping Rain Water          | Hard       | For each element of the array, the water it contains is equal to $min(LeftMaxBar, RightMaxBar) - height(i))$; to speed up the process of finding leftMax & rightMax, we can store the result in the initialization stage by iterating the array from two ends twice. |
-| LeetCode 238 | Product of Array Except Self | Medium     | Use a prefixProduct array and a suffixProduct array (rather than product\[i][j], product\[i][j] would take $O(n^2)$ time); Followup: To limit space complexity to $O(1)$; Just modify the rightProduct to a single variable (the space of answer array is not included as extra space) |
-| LeetCode 840 | Magic Squares In Grid        | Easy       | 1. the center must be 5<br/>2. the order must be 43816729 or 92761834<br/>3. the even must be in the corner, the odd must be on the edge (only check one point is enough) |
-| LeetCode 531 | Lonely Pixel I               | Medium     | Use two arrays to record how many `B` occur in this row or col. If it's the first time it occurs, plus 1; if not, decrease by 1. After that, check all grids in the matrix whether there's a `B` in the rowCnt and colCnt equals 1 places (i.e. `rowCnt[i] == 1 && colCnt[j] == 1 && picture[i][j] == 'B'` ) |
+| #             | Title                         | Difficulty | Comment                                                      |
+| ------------- | ----------------------------- | ---------- | ------------------------------------------------------------ |
+| LintCode 139  | Subarray Sum Closest          | Medium     | subarray_sum(i, j) = prefix[j+1] - prefix[i]; find the least difference of two elements in the prefix array |
+| LeetCode 42   | Trapping Rain Water           | Hard       | For each element of the array, the water it contains is equal to $min(LeftMaxBar, RightMaxBar) - height(i))$; to speed up the process of finding leftMax & rightMax, we can store the result in the initialization stage by iterating the array from two ends twice. |
+| LeetCode 238  | Product of Array Except Self  | Medium     | Use a prefixProduct array and a suffixProduct array (rather than product\[i][j], product\[i][j] would take $O(n^2)$ time); Followup: To limit space complexity to $O(1)$; Just modify the rightProduct to a single variable (the space of answer array is not included as extra space) |
+| LeetCode 840  | Magic Squares In Grid         | Easy       | 1. the center must be 5<br/>2. the order must be 43816729 or 92761834<br/>3. the even must be in the corner, the odd must be on the edge (only check one point is enough) |
+| LeetCode 531  | Lonely Pixel I                | Medium     | Use two arrays to record how many `B` occur in this row or col. If it's the first time it occurs, plus 1; if not, decrease by 1. After that, check all grids in the matrix whether there's a `B` in the rowCnt and colCnt equals 1 places (i.e. `rowCnt[i] == 1 && colCnt[j] == 1 && picture[i][j] == 'B'` ) |
+| LeetCode 1352 | Product of the Last K Numbers | Medium     | Prefix Product. If meeting a `0`, clear the prefix product array and start from the beginning `1`. When returning, we should compare the length of the prefix product array, if `length < k`, we should return `0`, since we have a `0` in the `k` elements and the product must be `0`. Another way is to use a List to compress consequent `1` and `0`. Because the product is restricted within the integer range. That means the multiply over `2` can at most occur `32` times, otherwise it will over flow. So the other factors must be `0` and `1`. So we can compress and every time just product the rightmost k. |
 
 <br/>
 
