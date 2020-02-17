@@ -320,3 +320,11 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 433 | Minimum Genetic Mutation | Medium     | Construct graph then use BFS to get the shortest distance. **There's a trick** in this question for getting neighbors in the graph. Instead of compare every string in the bank, since the letters for DNA can only by in `A, C, G, T`, we can use two sets `bankSet & visitedSet` to store the bank and the visited set. Then we start at the start string, change one letter in the string and check whether it is in the bank set. If exist, there's an edge. |
 
 <br/>
+
+## Other
+
+| #            | Title                   | Difficulty | Comment                                                      |
+| ------------ | ----------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 418 | Sentence Screen Fitting | Medium     | **Good Question.** Precomputing that if a line started from sentence[i] in the begining of the line: `1.` how many times the sentence can be filled in; `2.` which word will be the beginning word for the next line. |
+|              |                         |            |                                                              |
+|              |                         |            |                                                              |
