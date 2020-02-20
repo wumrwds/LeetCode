@@ -325,6 +325,16 @@ A personal LeetCode/LintCode Java solution set.
 
 <br/>
 
+## System Design
+
+| #            | Title                   | Difficulty | Comment                                                      |
+| ------------ | ----------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 382 | Linked List Random Node | Medium     | **Reservoir Sampling.** We can use this algorithm without knowing the size of the dataset to randomly pick `k` elements. For the first `k-th` elements, we just put them into the `reservoir` directly. For the `(k+1)-th to n-th` elements, we will have a probability of `k/(k+i)` to select it and a probability of `1/k` for each element  already in the reservoir to be replaced by the `(k+i)-th` element. See the proof in the code. |
+|              |                         |            |                                                              |
+|              |                         |            |                                                              |
+
+<br/>
+
 ## Other
 
 | #            | Title                   | Difficulty | Comment                                                      |
@@ -332,3 +342,4 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 418 | Sentence Screen Fitting | Medium     | **Good Question.** Precomputing that if a line started from sentence[i] in the begining of the line: `1.` how many times the sentence can be filled in; `2.` which word will be the beginning word for the next line. |
 |              |                         |            |                                                              |
 |              |                         |            |                                                              |
+
