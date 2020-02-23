@@ -111,6 +111,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 1087 | Brace Expansion                                              | Medium     | Backtracking. Better to parse curly braces first, then start to do DFS. Also better to do sorting before DFS. |
 | LeetCode 417  | Pacific Atlantic Water Flow                                  | Medium     | We can consider in a reverse way: this question requires to find out the grids which can both reach Pacific and Atlantic. So we can start from Pacific and Atlantic, then see which grids can be reached from Pacific and Atlantic respectively. Finally, collect the grids which can be reached both by Pacific and Atlantic. |
 | LeetCode 547  | Friend Circles                                               | Medium     | Find SCC in undirected graph. Use DFS to resolve it. (See the code) **Note that** we need to use Tarjan's algorithm to find SCC in directed graph. We can also use UNION-FIND to solve this question. |
+| LeetCode 842  | Split Array into Fibonacci Sequence                          | Medium     | Do backtracking. Record the previous two numbers. Some cases are required to be handled: one is starting with`0`, `0` is valid, but `0112`, `0000` are invalid; another is for integers that are of length 10 but still less than `Integer.MAX_VALUE`. The code is ugly, recommend to rewrite in the future. |
 
 <br/>
 
