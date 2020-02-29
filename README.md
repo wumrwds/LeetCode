@@ -78,6 +78,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 200  | Number of Islands                                            | Medium     | Count connected blocks. Use direction array and bfs to traverse all nodes in the chessboard. Required a private custom class `Point` for queue and a boolean array for marking whether a point has been visited. |
 | LeetCode 1202 | [Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps) | Medium     | Use Disjoint Set Algorithm (CLRS Chapter # 21) to get connected components. Then sort each group and generate the new string. |
 | LeetCode 1061 | Lexicographically Smallest Equivalent String                 | Medium     | Use UnionFind to divide letters into serveral groups. Then get the smallest letter for each group. **Note that** we can also do some slight modification on the original UnionFind, since we only need to get the smallest letter in each group. So we don't need rank array, and we just simply attach the letter with higher lexicographical order to the lower one. (See the second solution in the code.) |
+| LeetCode 990  | Satisfiability of Equality Equations                         | Medium     | Two pass. First pass union, second pass check.               |
 
 <br/>
 
