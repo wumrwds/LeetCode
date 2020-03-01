@@ -225,13 +225,14 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Sort
 
-| #            | Title                      | Difficulty | Comment                                                      |
-| ------------ | -------------------------- | ---------- | ------------------------------------------------------------ |
-| LeetCode 973 | K Closest Points to Origin | Medium     | Use the main idea of PARTITION in Quicksort to **sort the first k-th smallest elements**; it takes O(n) time. |
-| LeetCode 252 | Meeting Rooms              | Easy       | Sort by the left/right end of the interval, then compare the right/left end of the intervals. Followup: **LeetCode 253** |
-| LeetCode 253 | Meeting Rooms II           | Medium     | Add all left & right end points into an array, then sort by value (Note that we need to make right points before left points while they have same value); After that, iterating the points array; When we meet a left point, it means we are entering a new interval; otherwise, we are leaving an interval. (Just like using a vertical line to sweep from left to right) |
-| LeetCode 56  | Merge Intervals            | Medium     | Sort the segments by the left end. Then iterate all segments in the sorted array: if the current segment's left end is less than the last merged segment in the result set, then merge these two. |
-| LeetCode 274 | H-Index                    | Medium     | We can use the idea of bucket to resolve this question instead of sorting the original array. Since `h` is in the range [0, n], we can count papers by citation. For papers with citation larger than `n`, we collect them in the `bucket[n]`. So we will have n+1 buckets in total. Then iterate the bucket from the tail and h from n decreased to 0 until the accumulative count sum is larger than `h`. |
+| #             | Title                      | Difficulty | Comment                                                      |
+| ------------- | -------------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 973  | K Closest Points to Origin | Medium     | Use the main idea of PARTITION in Quicksort to **sort the first k-th smallest elements**; it takes O(n) time. |
+| LeetCode 252  | Meeting Rooms              | Easy       | Sort by the left/right end of the interval, then compare the right/left end of the intervals. Followup: **LeetCode 253** |
+| LeetCode 253  | Meeting Rooms II           | Medium     | Add all left & right end points into an array, then sort by value (Note that we need to make right points before left points while they have same value); After that, iterating the points array; When we meet a left point, it means we are entering a new interval; otherwise, we are leaving an interval. (Just like using a vertical line to sweep from left to right) |
+| LeetCode 56   | Merge Intervals            | Medium     | Sort the segments by the left end. Then iterate all segments in the sorted array: if the current segment's left end is less than the last merged segment in the result set, then merge these two. |
+| LeetCode 274  | H-Index                    | Medium     | We can use the idea of bucket to resolve this question instead of sorting the original array. Since `h` is in the range [0, n], we can count papers by citation. For papers with citation larger than `n`, we collect them in the `bucket[n]`. So we will have n+1 buckets in total. Then iterate the bucket from the tail and h from n decreased to 0 until the accumulative count sum is larger than `h`. |
+| LeetCode 1366 | Rank Teams by Votes        | Medium     | We have at most `votes[0].length()` rounds and it is less than 26. So we can use a 26 * 26 array to record the votes each letter gets in each round. Then we can use this array to sort the original character set. |
 
 <br/>
 
