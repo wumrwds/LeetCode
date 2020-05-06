@@ -304,7 +304,8 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 421  | Maximum XOR of Two Numbers in an Array                       | Medium     | In order to get a maximum XOR, we need to get a most different prefix from the left. So we can use trie to get it. There're some tricks: **1.** Use `Integer.toBinaryString()` to convert integers to a  bit represented string. **2.** use `Integer.toBinaryString(nums[i] | highBitMask).substring(1)` to keep a `0000..` prefix for the small numbers. **3.** update the maximum XOR in every insertion. |
 | LeetCode 720  | Longest Word in Dictionary                                   | Easy       | Trie + DFS                                                   |
 | LeetCode 648  | Replace Words                                                | Medium     | Contruct trie and then use the trie to filter words.         |
-| L呃呃天C哦的  | Palindromic Substrings                                       | Medium     | Use a `boolean[][]` array to record whether the substring from i to j is a palindrome. Then count the palindrome substrings from length of 1 to length of n. In total, it takes O(n^2) time. |
+| LeetCode  647 | Palindromic Substrings                                       | Medium     | Use a `boolean[][]` array to record whether the substring from i to j is a palindrome. Then count the palindrome substrings from length of 1 to length of n. In total, it takes O(n^2) time. |
+| LeetCode 361  | Bomb Enemy                                                   | Medium     | Like the game `bomb man`. We can use a `rowCnt` and an array `colCnt[j]` to record the enemies at the current coordinate we can kill. When we meet a "Wall" grid or it's at the start row or column (`i == 0 or j == 0`), we should initialize `rowCnt` and `colCnt[j]`. |
 
 <br/>
 
