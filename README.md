@@ -120,11 +120,12 @@ A personal LeetCode/LintCode Java solution set.
 
 ## Linked List
 
-| #            | Title                            | Difficulty | Comment                                                      |
-| ------------ | -------------------------------- | ---------- | ------------------------------------------------------------ |
-| LeetCode 160 | Intersection of Two Linked Lists | Easy       | Let the tail of List A point to the head of List B; if there's a circle, it means have intersection; otherwise, it has no intersection |
-| LeetCode 143 | Reorder List                     | Medium     | 1. find the mid<br/>2. reverse the right part<br/>3. merge two lists |
-| LeetCode 287 | Find the Duplicate Number        | Medium     | It's a problem on array, but it can be converted to a linked list problem similar to `Linked List Cycle II`. Use `slow = nums[slow]; fast = nums[nums[fast]];` to move to the next node in the "linked list". It takes O(n) time. Another idea is to use Binary Search to check the number of elements which are less than and equal to `mid` (not `nums[mid]`) in the whole array is less than and equal to mid. If it's true, do recursively in the right part, otherwise do it in the left part. |
+| #                | Title                                   | Difficulty | Comment                                                      |
+| ---------------- | --------------------------------------- | ---------- | ------------------------------------------------------------ |
+| LeetCode 160     | Intersection of Two Linked Lists        | Easy       | Let the tail of List A point to the head of List B; if there's a circle, it means have intersection; otherwise, it has no intersection |
+| LeetCode 143     | Reorder List                            | Medium     | 1. find the mid<br/>2. reverse the right part<br/>3. merge two lists |
+| LeetCode 287     | Find the Duplicate Number               | Medium     | It's a problem on array, but it can be converted to a linked list problem similar to `Linked List Cycle II`. Use `slow = nums[slow]; fast = nums[nums[fast]];` to move to the next node in the "linked list". It takes O(n) time. Another idea is to use Binary Search to check the number of elements which are less than and equal to `mid` (not `nums[mid]`) in the whole array is less than and equal to mid. If it's true, do recursively in the right part, otherwise do it in the left part. |
+| **LeetCode 430** | Flatten a Multilevel Doubly Linked List | Medium     | **Good question**. The key is to treat this linked list as a binary tree. `child` represents the left subtree, `next` represents the right subtree. And this question becomes a **preorder** traversal. The `helper()` function returns the tail of the flattened linked list. |
 
 <br/>
 
