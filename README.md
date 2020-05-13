@@ -51,6 +51,7 @@ A personal LeetCode/LintCode Java solution set.
 | LeetCode 106  | Construct Binary Tree from Inorder and Postorder Traversal   | Medium     | The last node of preorder array is the current root. Then find its position in inorder array and split each array into two subtree part (both required a start and end boundary). Do it using divide&conquer recursively. |
 | LeetCode 124  | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | Hard       | Declare a global variable to restore the max sum; For any maximum path, its must be composed by two parts: the path from two end nodes to their lowest common ancestor; So the return value of our help Divide & Conquer function is the max sum from the end node to its lca; There's a trick here: `for any part of two subtree, if its max path is nagetive, make it 0`, as negative value will make no contribution to the answer and making it 0 can exclude its influence on the result. |
 | LeetCode 1325 | Delete Leaves With a Given Value                             | Medium     | First, apply the function on both of the two subtrees. Then, handle the current root node based on the results we get in the first step. |
+| LeetCode 1443 | Minimum Time to Collect All Apples in a Tree                 | Medium     | Divide & conquer. Another approach is to reverse the original tree, then start from the child nodes and count their total distance to `node 0`, then times 2 and get the answer. |
 
 <br/>
 
